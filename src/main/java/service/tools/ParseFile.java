@@ -24,6 +24,11 @@ public class ParseFile {
     @Autowired
     private WriteFileFromXML writeFileFromXML;
 
+    /**
+     * descriere functionalitate metoda
+     * @param filePath
+     * @return
+     */
     public List<Word> readFromFile(String filePath) {
         if (filePath == null) {
             filePath = BaseKeys.LOCAL_FILE_PATH;

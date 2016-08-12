@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<form method="POST" action="uploadFile" enctype="multipart/form-data">
+<form method="POST" action="/uploadFileController" enctype="multipart/form-data">
     File to upload: <input type="file" name="file" id="fileUpload"/>
     <br/>
 

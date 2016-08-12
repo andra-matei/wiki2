@@ -19,7 +19,7 @@ import java.util.List;
  * Created by azburatura on 8/12/2016.
  */
 @Controller
-@RequestMapping(value = "/uploadFile")
+@RequestMapping(value = "/uploadFileController")
 public class UploadFileController {
 
     @Autowired
@@ -42,8 +42,11 @@ public class UploadFileController {
                 try (BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(serverFile))) {
 
                     stream.write(bytes);
+                    stream.flush();
+
                     List<Word> wordList = parseFile.readFromFile(dir.getAbsolutePath() + File.separator + file.getOriginalFilename());
                     model.addAttribute("wordListFromFile", wordList);
+
                     return "readingFile";
                 }
             } catch (Exception e) {
