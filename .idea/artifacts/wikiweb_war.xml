@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="wikiweb:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="wikiweb-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="wikiweb:war exploded" />
-    </root>
-  </artifact>
-</component>
