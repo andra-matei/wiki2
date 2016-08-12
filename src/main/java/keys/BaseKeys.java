@@ -7,6 +7,7 @@ public interface BaseKeys {
 
     String HELLO = "Hello Wrold!!!";
     String URL_WIKI = "https://en.wikipedia.org/wiki/Special:Export?pages=";
-    String EGAL = "=";
+    String EGAL = "D:\\uploadFiles\\titluri wiki.txt";
+    String LOCAL_FILE_PATH = "D:\\titluri2.txt";
 
 }

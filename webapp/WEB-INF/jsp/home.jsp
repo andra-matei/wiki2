@@ -23,7 +23,14 @@
         <input type="submit" value="apasa aici">
     </form>
         </div>
+
+    <form action="/readFile" method="post">
+        <input type="submit" value="Read from file">
+    </form>
 </div>
+
+<br/>
+<button type="button" onclick="window.location='/uploadFile'">Upload 1 file page</button>
 
 </body>
 </html>

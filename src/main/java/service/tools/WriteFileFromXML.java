@@ -37,7 +37,7 @@ public class WriteFileFromXML {
                 url = new URL(BaseKeys.URL_WIKI + titleForUrl);
                 URLConnection urlConnection = url.openConnection();
                 BufferedReader in = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
-                BufferedWriter out = new BufferedWriter(new FileWriter("D:\\Homework\\wikiIndexer\\wikiweb\\fisierXML.txt"));
+                BufferedWriter out = new BufferedWriter(new FileWriter("D:\\proj\\wikiIndexer\\wikiIndexer\\wikiweb\\fisierXML.txt"));
                 String inputLine;
                 while ((inputLine = in.readLine()) != null) {
                     out.write(inputLine);

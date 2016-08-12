@@ -58,11 +58,6 @@ public class Article {
 
     @Override
     public String toString() {
-        return "Article{" +
-                "id=" + id +
-                ", titlu='" + title + '\'' +
-                ", url='" + url + '\'' +
-                ", words=" + words +
-                '}';
+        return "Article:" + title;
     }
 }

@@ -43,4 +43,9 @@ public class HomeController {
         return "words";
     }
 
+    @RequestMapping(value = "/uploadFile", method = RequestMethod.GET)
+    public String showUploadPage() {
+        return "uploadFile";
+    }
+
 }

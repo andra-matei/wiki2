@@ -7,8 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import service.ArticleService;
 import service.WordService;
-import service.impl.ArticleServiceImpl;
-import service.impl.WordServiceImpl;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -33,12 +31,17 @@ public class CountWords {
         Map<String, Integer> wordCount = new LinkedHashMap<>();
 
         Article article = new Article();
-        article.setTitle(writeFileFromXML.getTitleForUrl());
+        String[] titlesArrays = writeFileFromXML.getTitleForUrl().split("%0A");
+        String titles = "";
+        for (String s : titlesArrays) {
+            titles += s + " ";
+        }
+        article.setTitle(titles);
         article.setUrl(BaseKeys.URL_WIKI + article.getTitle());
         articleService.saveArticle(article);
 
         try {
-            BufferedReader in = new BufferedReader(new FileReader("D:\\Homework\\wikiIndexer\\wikiweb\\fisierXML.txt"));
+            BufferedReader in = new BufferedReader(new FileReader("D:\\proj\\wikiIndexer\\wikiIndexer\\wikiweb\\fisierXML.txt"));
             String line;
             while ((line = in.readLine()) != null) {
                 line = line.toUpperCase(); // convert to lower case
