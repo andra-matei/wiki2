@@ -41,7 +41,7 @@ public class CountWords {
         articleService.saveArticle(article);
 
         try {
-            BufferedReader in = new BufferedReader(new FileReader("D:\\proj\\wikiIndexer\\wikiIndexer\\wikiweb\\fisierXML.txt"));
+            BufferedReader in = new BufferedReader(new FileReader("D:\\Homework\\wikiweb\\fisierXML.txt"));
             String line;
             while ((line = in.readLine()) != null) {
                 line = line.toUpperCase(); // convert to lower case
