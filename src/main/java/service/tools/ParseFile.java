@@ -13,21 +13,37 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by andmatei on 8/12/2016.
+ * @author Adrian Zburatura
+ * @author Andra Matei
+ * @version %I%, %G%
  */
 @Component
 public class ParseFile {
 
+    /**
+     * Injected concrete CountWords bean
+     */
     @Autowired
     private CountWords countWords;
 
+    /**
+     * Injected concrete WriteFileFromXML bean
+     */
     @Autowired
     private WriteFileFromXML writeFileFromXML;
 
     /**
-     * descriere functionalitate metoda
-     * @param filePath
-     * @return
+     * The method gets the path to a file with article titles.
+     * It appends each title to one containing them all.
+     * When added to the wiki root url, this new title will display the page with the
+     * body of each article.
+     * If the article was already looked for, it means that it exists in the database and the
+     * top 10 words are already there.
+     * Otherwise, it will be necessarily to calculate the 10 words.
+     *
+     * @param filePath the path to the file containing article titles
+     * @return the list of the top 10 words with the biggest number of occurences
+     * from all articles
      */
     public List<Word> readFromFile(String filePath) {
         if (filePath == null) {
@@ -38,7 +54,7 @@ public class ParseFile {
             String line;
             StringBuilder titles = new StringBuilder();
             while ((line = bufferedReader.readLine()) != null) {
-                titles.append(line + "%0A");
+                titles.append(line + BaseKeys.SEPARATOR_FOR_TITLE);
             }
 
             List<Word> wordsFromDatabase = writeFileFromXML.writeFileFromXML(titles.toString());

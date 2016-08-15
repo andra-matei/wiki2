@@ -14,30 +14,48 @@ import java.net.URLConnection;
 import java.util.List;
 
 /**
- * Created by andmatei on 8/11/2016.
+ * @author Adrian Zburatura
+ * @author Andra Matei
+ * @version %I%, %G%
  */
 @Component
 public class WriteFileFromXML {
 
     private String titleForUrl;
 
+    /**
+     * Injected concrete ArticleService bean
+     */
     @Autowired
     private ArticleService articleService;
 
+    /**
+     * @return the title to be added to the Wiki root URL
+     */
     public String getTitleForUrl() {
         return titleForUrl;
     }
 
+    /**
+     * The method looks for the titleForUrl in the database.
+     * If it was previously looked for then it will get the
+     * data from database. If it didn't then it will put the body
+     * of the article into a XML file.
+     *
+     * @param titleForUrl is the title of the article
+     * @return the top 10 words with the biggest number of occurences
+     * it is returned from the database if the article was searched for previously
+     */
     public List<Word> writeFileFromXML(String titleForUrl) {
         Article article = articleService.findArticleByName(titleForUrl);
         if (article == null) {
             this.titleForUrl = titleForUrl;
-            URL url = null; //Reading
+            URL url = null;
             try {
                 url = new URL(BaseKeys.URL_WIKI + titleForUrl);
                 URLConnection urlConnection = url.openConnection();
                 BufferedReader in = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
-                BufferedWriter out = new BufferedWriter(new FileWriter("D:\\Homework\\wikiweb\\fisierXML.txt"));
+                BufferedWriter out = new BufferedWriter(new FileWriter(BaseKeys.PATH_TO_XML_FILE));
                 String inputLine;
                 while ((inputLine = in.readLine()) != null) {
                     out.write(inputLine);
