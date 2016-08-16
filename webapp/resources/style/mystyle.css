@@ -37,3 +37,18 @@ body{
     text-align: center;
 
 }
+
+.butonUpload{
+    margin: 8px 0;
+    background-color: #3399ff;
+    border: thin ;
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+.bodyClass{
+    bgcolor: #f5f5dc;
+    margin-left: 600px;
+    font-size: 18px;
+    font-family: Arial;
+}

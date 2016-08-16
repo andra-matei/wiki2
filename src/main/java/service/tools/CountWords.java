@@ -95,7 +95,8 @@ public class CountWords {
                 } else {
                     occurrences++;
                 }
-                if (!isPreposition(word) && (!word.toString().startsWith("<")) && (word.toString().matches("[a-zA-Z]+"))) {
+                if (!isPreposition(word) && (!word.toString().startsWith("<")) && (word.toString().matches("[a-zA-Z]+"))
+                        && (word.toString().length() >=2)) {
                     wordCount.put(word, occurrences);
                 }
             }
@@ -146,7 +147,7 @@ public class CountWords {
                             article.getWords().add(wordEntity);
                             articleService.updateArticle(article);
                         }
-                        
+
                         counter++;
                     }
                 }

@@ -44,23 +44,837 @@
     </namespaces>
   </siteinfo>
   <page>
-    <title>USA</title>
+    <title>Sibiu</title>
     <ns>0</ns>
-    <id>31873</id>
-    <redirect title="United States" />
+    <id>370039</id>
     <revision>
-      <id>715199288</id>
-      <parentid>715114978</parentid>
-      <timestamp>2016-04-14T09:06:52Z</timestamp>
+      <id>734437662</id>
+      <parentid>734435892</parentid>
+      <timestamp>2016-08-14T09:49:29Z</timestamp>
       <contributor>
-        <ip>70.162.222.21</ip>
+        <username>AnomieBOT</username>
+        <id>7611264</id>
       </contributor>
+      <minor/>
+      <comment>Dating maintenance tags: {{Outdated section}}</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve" bytes="97">#REDIRECT [[United States]]
+      <text xml:space="preserve" bytes="43694">{{distinguish2|[[Sibu]], a town in Malaysia}}
+{{Infobox settlement
+| official_name          = Sibiu
+| other_name             = Hermannstadt / Nagyszeben
+| settlement_type        = City
+| image_skyline          = Sibiu-pictures-001.jpg
+| image_caption          = 
+| image_shield           = Coa_Romania_Town_Nagyszeben.svg
+| image_map              = Sibiu jud Sibiu.jpg
+| mapsize                = 200px
+| map_caption            = Administrative territory of Sibiu in Sibiu County
+| pushpin_map            = Romania
+| latd = 45 | latm = 47| lats = 34| latNS = N
+| longd = 24 | longm = 09| longs = 07| longEW = E
+| coordinates_display    = title
+| coordinates_region     = RO
+| subdivision_type       = [[Countries of the world|Country]]
+| subdivision_name       = [[Romania]]
+| subdivision_type1      = [[Counties of Romania|County]]
+| subdivision_name1      = [[Sibiu County|Sibiu]]
+| established_title      = Founded
+| established_date       = 1191 (first official record)
+| leader_party           = [[FDGR]]
+| leader_title           = Mayor
+| leader_name            = [[Astrid Fodor]] 
+| area_total_km2         = 121
+| area_land_km2          = 
+| area_water_km2         = 
+| area_metro_km2         = 
+| elevation_m            = 415
+| population_total       = 147,245
+| population_as_of       = 2011 census&lt;ref name=&quot;INSSER&quot;&gt;{{cite web|url=http://www.recensamantromania.ro/wp-content/uploads/2013/07/sR_TAB_3.xlsx |title=Population at 20 October 2011 |date=5 July 2013 |accessdate=5 July 2013 |publisher=[[National Institute of Statistics (Romania)|INSSE]] |language=Romanian |deadurl=yes }}&lt;/ref&gt;
+| population_density_km2 = 1132
+| population_metro       = 
+| timezone               = [[Eastern European Time|EET]]
+| utc_offset             = +2
+| timezone_DST           = [[Eastern European Summer Time|EEST]]
+| utc_offset_DST         = +3
+| postal_code_type       = Postal Code
+| postal_code            = 55xxxx
+| area_code              = +40 269/369
+| blank_name             = [[Romanian car number plates|Car Plates]]
+| blank_info             = SB
+| website                = {{URL|http://www.sibiu.ro/}}
+| footnotes              = 
+}}
 
-{{this is a redirect|from move|from initialism|hatnote|printworthy}}</text>
-      <sha1>96kh2l449a5pr9aydl7naynzwkh5mkt</sha1>
+'''Sibiu''' ({{IPA-ro|siˈbiw}}, antiquated, ''Sibiiu''; {{lang-de|Hermannstadt}}, [[Transylvanian Saxon dialect]]: ''Härmeschtat'', {{lang-hu|Nagyszeben}}) is a city in [[Transylvania]], [[Romania]], with a population of 147,245.&lt;ref name=&quot;INSSER&quot;/&gt; Located some {{convert|215|km|abbr=on}} north-west of [[Bucharest]],&lt;ref&gt;[http://www.geobytes.com/citydistancetool.htm City Distance Tool] at geobytes.com&lt;/ref&gt; the city straddles the [[Cibin River]], a tributary of the river [[Olt River|Olt]]. Now the capital of [[Sibiu County]], between 1692 and 1791 and 1849-1865 Sibiu was the capital of the [[Principality of Transylvania (disambiguation)|Principality of Transylvania]].
+
+Sibiu is one of the most important cultural centres of Romania and was designated the [[European Capital of Culture]] for the year 2007, along with the city of [[Luxembourg (city)|Luxembourg]].&lt;ref&gt;[http://www.sibiu2007.ro/index_en.php Sibiu Cultural Capital Website]&lt;/ref&gt; Formerly the centre of the [[Transylvanian Saxons]], the old city of Sibiu was ranked as &quot;Europe's 8th most idyllic place to live&quot; by [[Forbes]] in 2008.&lt;ref&gt;{{cite news| url=http://www.forbes.com/2008/11/18/europe-homes-dollar-forbeslife-cx_po_1118realestate_slide_4.html | work=Forbes | first1=Edward | last1=Beckett | first2=Parmy | last2=Olson | title=In Pictures: Europe's Most Idyllic Places To Live}}&lt;/ref&gt;
+
+The city administers the [[Păltiniș]] ski resort.
+
+== History ==
+{{see also|Timeline of Sibiu}}
+The first official record referring to the '''Sibiu''' area comes from 1191, when Pope [[Celestine III]] confirmed the existence of the free [[prepositure]] of the [[Transylvanian Saxons|German settlers]] in Transylvania, the prepositure having its headquarters in Sibiu, named ''Cibinium'' at that time.&lt;ref&gt;[http://www.turism.sibiu.ro/en/istorie.htm The History of Sibiu]&lt;/ref&gt;
+
+In the 14th century, it was already an important trade centre. In 1376, the craftsmen were divided in 19 [[guild]]s. Sibiu became the most important ethnic German city among the seven cities that gave Transylvania its German name ''Siebenbürgen'' (literally ''seven citadels'').&lt;ref&gt;[http://thedockyards.com/the-history-of-the-transylvanian-saxons/ The History of the Transylvanian Saxons], thedockyards.com&lt;/ref&gt;&lt;ref&gt;[http://europeupclose.com/article/sibiu-hermannstadt-romanian-city-german-traditions/ Sibiu, or Hermannstadt? A Romanian City with German TraditionsPublished/Revised June 11, 2014], europeupclose.com&lt;/ref&gt;  It was home to the [[Universitas Saxorum]] (Community of the Saxons), a network of pedagogues, ministers, intellectuals, city officials, and councilmen of the German community forging an ordered legal corpus and political system in Transylvania since the 1400s.&lt;ref&gt;[http://expelledgermans.org/transylvaniasaxons.htm The vanished Romanian German community through Hitler's population transfer, soviet deportation, &amp; mass emigration], expelledgermans.org&lt;/ref&gt;&lt;ref&gt;[http://www.alanier.at/Sachsen.html The Saxons’ Land, or the Royal Domain (Fundus Regius)], alanier.at&lt;/ref&gt; During the 18th and 19th centuries, the city became the second &lt;!-- to what? --&gt; and later the first most important centre of Transylvanian [[Romanians|Romanian ethnics]]. The first Romanian-owned bank had its headquarters here (The ''Albina'' Bank), as did the [[Asociația Transilvană pentru Literatura Română și Cultura Poporului Român|ASTRA]] (Transylvanian Association for Romanian Literature and Romanian's People Culture). After the [[Romanian Orthodox]] Church was granted status in the [[Habsburg Empire]] from the 1860s onwards, Sibiu became the [[Metropolitan bishop|Metropolitan seat]], and the city is still regarded as the third most important centre of the [[Romanian Orthodox Church]]. Between the [[Hungarian Revolution of 1848]] and 1867 (the year of the ''[[Ausgleich]]''), Sibiu was the meeting-place of the [[Transylvanian Diet]], which had taken its most representative form after the Empire agreed to extend voting rights in the region.
+
+After [[World War I]], when [[Austria-Hungary]] was dissolved, Sibiu became part of Romania; the majority of its population was still ethnic German (until 1941) and counted a large Romanian community, as well as a smaller Hungarian one. Starting from the 1950s and until after 1990, most of the city's ethnic Germans emigrated to [[Germany]] and [[Austria]]. Among the roughly 2,000 who have remained is [[Klaus Johannis]], the {{As of|2014|alt=current}} President of Romania.
+
+==Geography==
+[[File:Sibiu region.png|thumb|Topographic map of the Sibiu region]]
+Sibiu is situated near the geographical center of Romania at {{Coord|45.792784|N|24.152069|E|region:RO_type:city}}. Set in the Cibin Depression, the city is about 20&amp;nbsp;km from the [[Făgăraș Mountains]], 12&amp;nbsp;km from the [[Cibin Mountains]], and about 15&amp;nbsp;km from the [[Lotrului Mountains]], which border the depression in its southwestern section. The northern and eastern limits of Sibiu are formed by the Târnavelor Plateau, which descends to the Cibin Valley through Gușteriței Hill.
+ 
+The Cibin river as well as some smaller streams runs through Sibiu. The geographical position of Sibiu makes it one of the most important transportation hubs in Romania with important roads and railway lines passing through it.
+
+===City districts===
+The following districts are part of Sibiu. Some were villages annexed by the city but most were built as the city developed and increased its surface.
+{{colbegin||25em}}
+*Historic Center - Divided into the Upper Town and Lower Town
+*Centru (Centre)
+*Lupeni
+*[[Trei Stejari]]
+*[[Vasile Aron (Sibiu district)|Vasile Aaron]]
+*[[Hipodrom (Sibiu district)|Hipodrom I, II, III, IV]]
+*[[Valea Aurie]] (Golden Valley)
+*Tilișca
+*[[Ștrand]]
+*[[Turnișor]] (Little Tower; {{lang-de|Neppendorf}})
+*Piața Cluj
+*[[Țiglari]]
+*[[Terezian (Sibiu district)|Terezian]]
+*Reșița
+*[[Lazaret (Sibiu district)|Lazaret]]
+*[[Gușterița]] ({{lang-de|Hammersdorf}})
+*[[Broscărie]]
+*Viile Sibiului
+*Tineretului
+*Veteranilor de Război
+{{colend}}
+
+The Southern part, including the [[ASTRA National Museum Complex]] and the Zoo, also falls within the city limits.
+
+== Climate ==
+Sibiu's climate is [[temperate]]-[[Continental climate|continental]] with average temperatures of {{convert|8|to|9|C|F}}. The average rainfall is 662 l/m&lt;sup&gt;2&lt;/sup&gt;, and there are about 120 days of hard frost annually.
+
+{{Weather box|width=auto
+| location     = Sibiu
+| metric first = yes
+| single line  = yes
+| Jan record high C = 15.6
+| Feb record high C = 21.3
+| Mar record high C = 30.6
+| Apr record high C = 30.2
+| May record high C = 32.1
+| Jun record high C = 35.4
+| Jul record high C = 38.3
+| Aug record high C = 38.4
+| Sep record high C = 39.5
+| Oct record high C = 32.5
+| Nov record high C = 27.0
+| Dec record high C = 19.3
+| year record high C = 39.5
+| Jan high C = 0.9
+| Feb high C = 4.2
+| Mar high C = 10.1
+| Apr high C = 15.6
+| May high C = 20.5
+| Jun high C = 23.3
+| Jul high C = 25.1
+| Aug high C = 25.1
+| Sep high C = 21.7
+| Oct high C = 16.2
+| Nov high C = 9.1
+| Dec high C = 3.0
+| year high C = 14.6
+| Jan mean C = -4.0
+| Feb mean C = -1.1
+| Mar mean C = 3.8
+| Apr mean C = 9.4
+| May mean C = 14.2
+| Jun mean C = 17.1
+| Jul mean C = 18.7
+| Aug mean C = 18.1
+| Sep mean C = 14.4
+| Oct mean C = 8.9
+| Nov mean C = 3.7
+| Dec mean C = -1.1
+| year mean C = 8.5
+| Jan low C = -8.3
+| Feb low C = -5.5
+| Mar low C = -1.1
+| Apr low C = 3.8
+| May low C = 8.4
+| Jun low C = 11.3
+| Jul low C = 12.5
+| Aug low C = 11.9
+| Sep low C = 8.5
+| Oct low C = 3.2
+| Nov low C = -0.5
+| Dec low C = -4.9
+| year low C = 3.3
+| Jan record low C = -31.8
+| Feb record low C = -31.0
+| Mar record low C = -24.5
+| Apr record low C = -12.0
+| May record low C = -3.6
+| Jun record low C = 1.0
+| Jul record low C = 4.2
+| Aug record low C = 1.0
+| Sep record low C = -3.6
+| Oct record low C = -9.4
+| Nov record low C = -21.3
+| Dec record low C = -29.8
+| year record low C = -31.8
+| precipitation colour = green
+| Jan precipitation mm = 28
+| Feb precipitation mm = 26
+| Mar precipitation mm = 31
+| Apr precipitation mm = 54
+| May precipitation mm = 78
+| Jun precipitation mm = 99
+| Jul precipitation mm = 86
+| Aug precipitation mm = 68
+| Sep precipitation mm = 51
+| Oct precipitation mm = 42
+| Nov precipitation mm = 34
+| Dec precipitation mm = 30
+| year precipitation mm = 627
+| Jan snow cm = 11.0
+| Feb snow cm = 11.0
+| Mar snow cm = 7.4
+| Apr snow cm = 4.8
+| May snow cm = 0.0
+| Jun snow cm = 0.0
+| Jul snow cm = 0.0
+| Aug snow cm = 0.0
+| Sep snow cm = 0.0
+| Oct snow cm = 1.7
+| Nov snow cm = 4.5
+| Dec snow cm = 6.5
+| year snow cm = 
+| unit precipitation days = 1.0 mm
+| Jan precipitation days = 7
+| Feb precipitation days = 6
+| Mar precipitation days = 6
+| Apr precipitation days = 9
+| May precipitation days = 11
+| Jun precipitation days = 12
+| Jul precipitation days = 10
+| Aug precipitation days = 8
+| Sep precipitation days = 6
+| Oct precipitation days = 6
+| Nov precipitation days = 6
+| Dec precipitation days = 7
+| year precipitation days = 94
+| Jan sun = 69.2
+| Feb sun = 87.6
+| Mar sun = 138.0
+| Apr sun = 158.6
+| May sun = 205.1
+| Jun sun = 213.4
+| Jul sun = 245.6
+| Aug sun = 232.8
+| Sep sun = 182.6
+| Oct sun = 160.4
+| Nov sun = 83.1
+| Dec sun = 56.0
+| year sun = 1832.4
+| source 1 = NOAA&lt;ref name= NOAA&gt;{{cite web
+| url = ftp://ftp.atdd.noaa.gov/pub/GCOS/WMO-Normals/TABLES/REG_VI/RO/15260.TXT
+| title = Sibiu Climate Normals 1961-1990
+| publisher = [[National Oceanic and Atmospheric Administration]]
+| accessdate = July 9, 2015}}&lt;/ref&gt;
+| source 2 = Romanian National Statistic Institute (extremes 1901–2000)&lt;ref name=extremes&gt;{{cite web
+ |url=http://www.insse.ro/cms/files/pdf/ro/cap1.pdf 
+ |title=AIR TEMPERATURE (monthly and yearly absolute maximum and absolute minimum) 
+ |work=Romanian Statistical Yearbook: Geography, Meteorology, and Environment 
+ |publisher=Romanian National Statistic Institute 
+ |year=2007 
+ |accessdate=July 9, 2015 
+ |deadurl=yes 
+ |archiveurl=https://web.archive.org/web/20070927210503/http://www.insse.ro/cms/files/pdf/ro/cap1.pdf 
+ |archivedate=September 27, 2007 
+}}&lt;/ref&gt;
+| date     = August 2010}}
+
+==Demographics==
+As of [[Demographic history of Romania|2011 census]] data, Sibiu has a population of 147,245, a decrease from the figure recorded at the 2002 census,&lt;ref name=&quot;INSSER&quot;/&gt; making it the 14th largest [[List of cities and towns in Romania|city]] in Romania. The ethnic breakdown was as follows:&lt;ref&gt;[http://www.sibiu.insse.ro/phpfiles/tab2_1_tot_etnie_SIBIU.pdf 2011 census data]&lt;/ref&gt;
+* [[Romanians]] 95.9%
+* [[Hungarians]] 1.6%
+* [[Ethnic German|Germans]] ([[Transylvanian Saxon]]s) 1.1%
+* [[Roma in Romania|Roma]] 0.4%
+
+===Population dynamics===
+
+{|class=&quot;toccolours&quot; style=&quot;margin: 0 1em 0 1em;&quot; width=&quot;50%&quot;
+|-
+! align=&quot;center&quot; style=&quot;background:#ccccff&quot; colspan=3 | Census&lt;ref&gt;[http://varga.adatbank.transindex.ro/?pg=3&amp;action=etnik&amp;id=6764 Varga E. �?rpád: Statistici etnice și confesionale pentru Transilvania]&lt;/ref&gt;
+! align=&quot;center&quot; style=&quot;background:#ccccff&quot; colspan=3 | Ethnic structure
+|-
+|'''Year'''
+|'''Population'''
+|'''%±'''
+|[[Romanians]]
+|[[Hungarians]]
+|[[Ethnic German|Germans]]
+|----
+|1850
+|12,765
+|— 
+|2,089 
+|977 
+|8,790
+|----
+|1880
+|19,446 
+| + 41.4%
+|2,810 
+|2,065 
+|14,327
+|----
+|1890
+|21,465
+| + 9.8%
+|4,581 
+|3,199 
+|13,148
+|----
+|1900
+|29,577 
+| + 31.7%
+|7,106 
+|5,747 
+|16,141
+|----
+|1910
+|33,489 
+| + 12.4%
+|8,824 
+|7,252 
+|16,832
+|----
+|1920
+|32,748 
+| – 2.2%
+|8,553 
+|4,291 
+|18,218
+|----
+|1930
+|49,345 
+| + 40.4%
+|19,006 
+|6,782 
+|22,045
+|----
+|1941
+|63,765 
+| + 25.5%
+|33,829 
+|4,262 
+|23,574
+|----
+|1948
+|60,602 
+| – 5%
+|37,371 
+|5,060 
+|16,359
+|----
+|1956
+|90,475 
+| + 39.5%
+|60,526 
+|4,772 
+|24,636
+|----
+|1966
+|109,515 
+| + 19%
+|78,548 
+|5,124 
+|25,387
+|----
+|1977
+|151,005 
+| + 31.8%
+|119,507 
+|5,111 
+|25,403
+|----
+|1992
+|169,610 
+| + 11.6%
+|158,863 
+|4,163 
+|5,605
+|----
+|2002
+|154,892 
+| – 9%
+|148,269
+|3,135 
+|2,508
+|----
+|2011
+|147,245
+| – 5%
+|131,414
+|2,131
+|1,481
+|}
+
+===Population by religious denomination===
+
+Today, most of the population is of the Romanian Orthodox religion. [[Protestant]]s and [[Roman Catholic]]s represent about 5% of the population.
+
+{| class=&quot;wikitable&quot;
+|- bgcolor=#DDDDDD
+| colspan=8 align=&quot;center&quot; | '''Confessions in Sibiu'''
+|- style=&quot;background:#efefef&quot; align=&quot;center&quot;
+|-
+| bgcolor=&quot;#ABCDEF&quot; align=&quot;center&quot; | '''Confession'''
+| bgcolor=&quot;#ABCDEF&quot; align=&quot;center&quot; | '''1910'''
+| bgcolor=&quot;#ABCDEF&quot; align=&quot;center&quot; | '''2002'''
+|-
+| [[Romanian Orthodox Church|Eastern Orthodox]]
+| align=&quot;right&quot; | 18%
+| align=&quot;right&quot; | 91%
+|-
+| [[Romanian Greek-Catholic Church|Greek-Catholic (Uniate)]]
+| align=&quot;right&quot; | 8%
+| align=&quot;right&quot; | 1%
+|-
+| [[Roman-Catholic Church|Roman Catholic]]
+| align=&quot;right&quot; | 20%
+| align=&quot;right&quot; | 2%
+|-
+| [[Lutheranism|Evangelical Lutheran]]
+| align=&quot;right&quot; | 42%
+| align=&quot;right&quot; | 2%
+|-
+| [[Reformed Church|Reformed]]
+| align=&quot;right&quot; | 7%
+| align=&quot;right&quot; | 1%
+|-
+| [[Jewish]]
+| align=&quot;right&quot; | 4%
+| align=&quot;right&quot; | &amp;lt;&amp;nbsp;1&amp;nbsp;%
+|-
+| Other
+| align=&quot;right&quot; | 1%
+| align=&quot;right&quot; | 4%
+|-
+|}
+
+== Politics ==
+{{outdated section|date=August 2016}}
+[[File:2004 sibiu council.png|thumb|right|Sibiu city council composition:
+{{legend|#000|[[Democratic Forum of Germans in Romania]]}}
+{{legend|#cc3333|[[Social Democratic Party (Romania)|Social Democratic Party]]}}
+{{legend|#f2e125|[[National Liberal Party (Romania)|National Liberal Party]]}}
+{{legend|#ff9900|[[Democratic Party (Romania)|Democratic Party]]}}]]
+
+Although ethnic Germans make up less than 2% of Sibiu's population, [[Klaus Johannis]], the former president of the [[Democratic Forum of Germans in Romania]] (FDGR/DFDR) and current president of Romania, served as mayor of Sibiu from 2000 to 2014.  When he was elected mayor in 2000, he was the first German mayor of a city in Romania since [[World War II]].{{citation needed|date=April 2015}} Johannis was overwhelmingly reelected in 2004 (with 88.7% of votes) and 2008 (with 83.3% of the votes cast) and his party gained an absolute majority in the city council in that year. The German Forum also won the elections for mayor in the second and third most important towns in Sibiu county, [[Mediaș]] and [[Cisnădie]], as well as one third (11 out of 33) of the seats in the county council.
+
+{| cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;1&quot; class=&quot;wikitable&quot;
+! style=&quot;background:#ccc&quot; | &amp;nbsp;&amp;nbsp;&amp;nbsp;
+! style=&quot;background:#ccc&quot; | Party
+! style=&quot;background:#ccc&quot; | Seats
+! style=&quot;background:#ccc&quot; colspan=15 | Current Council
+|-
+|-
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| [[Democratic Forum of Germans in Romania|Democratic Forum of Germans]]
+| style=&quot;text-align: right&quot; | '''15'''
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|FDGR}}&quot; | &amp;nbsp;
+|-
+| style=&quot;background:{{Romanian politics/party colours|PNL}}&quot; | &amp;nbsp;
+| [[National Liberal Party (Romania)|National Liberal Party]]
+| style=&quot;text-align: right&quot; | '''4'''
+| style=&quot;background:{{Romanian politics/party colours|PNL}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|PNL}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|PNL}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|PNL}}&quot; | &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+|-
+| style=&quot;background:{{Romanian politics/party colours|PSD}}&quot; | &amp;nbsp;
+| [[Social Democratic Party (Romania)|Social Democratic Party]]
+| style=&quot;text-align: right&quot; | '''3'''
+| style=&quot;background:{{Romanian politics/party colours|PSD}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|PSD}}&quot; | &amp;nbsp;
+| style=&quot;background:{{Romanian politics/party colours|PSD}}&quot; | &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+|-
+| style=&quot;background:{{Romanian politics/party colours|PC}}&quot; | &amp;nbsp;
+| [[Alliance of Liberals and Democrats (Romania)|Alliance of Liberals and Democrats]]
+| style=&quot;text-align: right&quot; | '''1'''
+| style=&quot;background:{{Romanian politics/party colours|PC}}&quot; | &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+| &amp;nbsp;
+|}
+
+== Economy ==
+
+Sibiu is an important economic hub for Romania, with a high rate of foreign investments. It is also an important hub for the manufacturing of automotive components and houses factories belonging to [[ThyssenKrupp]] Bilstein-Compa, Takata, Continental, and [[NTN Corporation|NTN-SNR]] ball bearings. 
+Other local industries are machine components, textiles, agro-industry, and electrical components ([[Siemens AG|Siemens]]).
+
+The city also contains Romania's second largest stock exchange, the [[Sibiu Stock Exchange]].&lt;ref&gt;[http://www.sibex.ro/?l=en Sbiu Stock Exchange Website]&lt;/ref&gt;
+
+The main industrial activities of Sibiu take place in two industrial zones located on the outskirts of the city:
+*East industrial zone, alongside the railway to [[Brașov]] and [[Râmnicu Vâlcea]]
+*West industrial zone, near the exit to [[Sebeș]], close to the [[Sibiu International Airport|Airport]]
+
+A commercial zone located in the [[Șelimbăr]] commune plays an important role in the economy of Sibiu. It houses a mall and other large retailers.
+
+Another factor that plays an important role in the economy of the city is tourism, which has been increasing at a steady rate since 2007.
+
+=== Employment breakdown by economic sector ===
+* Industry - 40%
+* Commerce - 17%
+* Construction - 8%
+* Health - 8%
+* Transport - 7%
+* Education - 5%
+* Other Services - 15%
+
+==Transport==
+
+Sibiu is well served in terms of transport and infrastructure. In 2010 a city bypass was opened, significantly reducing the road traffic inside the city.
+
+[[Tursib]]&lt;ref&gt;[http://www.tursib.ro Tursib] - Official Site&lt;/ref&gt; is the city's internal transportation system operator.
+
+===Air===
+[[File:Sibiu International Airport Location.png|thumb|Sibiu International Airport Location]]
+[[File:Blue-air-sibiu-airport.jpg|thumb||200px|right|Sibiu Airport, Blue Air flight.]]
+[[File:Transportation-sibiu.jpg|thumb||200px|right|[[Public bus]] transportation in Sibiu]]
+Sibiu has one of the most modern [[Sibiu International Airport|international airports]] in Romania, with direct connections to [[Germany]], [[Austria]], [[United Kingdom]], [[Italy]] and [[Spain]] as well as to other Romanian cities.
+
+=== Road ===
+Sibiu is an important node in the European road network, being on two different European routes (E68 and E81). At a national level, Sibiu is located on three different main national roads, DN1, DN7 and DN14.
+ 
+The [[A1 motorway (Romania)|Romanian Motorway A1]] will link the city with [[Pitești]] and the Romanian western border, near [[Arad, Romania|Arad]]. The remaining 161&amp;nbsp;km of motorway towards Arad, out of a total of 281&amp;nbsp;km, are under construction and expected to be completed by 2016, while the timeline for the segment towards Pitești is targeted for completion for the year 2020. Sibiu' s [[ring road]] as part of [[A1 motorway (Romania)|A1 motorway]] was completed on December 1, 2010.
+
+Sibiu is also an important hub for the international bus links with the biggest passenger transporter in Romania, [[Atlassib]], based here. Transport companies are also providing coach connections from Sibiu to a large number of locations in Romania.
+
+=== Rail ===
+Sibiu is situated on the [[Romanian Railways|CFR-Romanian Railways]] Main Line 200 (Brasov - Făgăraș - Sibiu - Simeria - Arad - Romanian Western Border) and on Line 206 (Sibiu - Mediaș).
+
+The city is served by three rail stations: the Main Station, the Little Station (''Gara Micǎ'') and Sibiu Turnișor. It has an important diesel-powered locomotives depot and a freight terminal.
+
+Numerous Inter City trains (nicknamed Blue Arrows) connect Sibiu to other major cities in Romania: Cluj-Napoca, Brașov, Craiova, Timișoara and Bucharest.
+
+=== Cycling ===
+Over the last 6 years, Sibiu has enjoyed a revival of cycling. The bicycle way in the city span for 43 kilometers.
+
+Bicycle rentals have offered a boost for the local economy with several small rental centers and a bigger rental center that is administered by the I'Velo Bike Sharing group.
+
+==Culture==
+Sibiu is one of Romania's most culturally lively cities. It has 3 theatres and a philharmonic orchestra along with other smaller private theatrical venues and a theatre studio housed by the Performing Arts and Acting section of [[Lucian Blaga University of Sibiu|Lucian Blaga University]], where students hold monthly representations.
+
+The [[Radu Stanca National Theatre]]&lt;ref&gt;[http://www.sibfest.ro Radu Stanca National Theatre] - Official Site&lt;/ref&gt; is one of the leading Romanian theatres. With origins dating back to 1787, it attracts some of the best-known Romanian directors, such as [[Gábor Tompa]] and [[Silviu Purcărete]]. It has both a Romanian-language and a German-language section, and presents an average of five shows a week.
+
+The [[Gong Theatre]] is specialised in puppetry, mime and non-conventional shows for children and teenagers. It also presents shows in both Romanian and German.
+
+The [[State Philharmonic of Sibiu]]&lt;ref&gt;[http://www.filarmonicasibiu.ro/ State Philharmonic of Sibiu] - Official Site&lt;/ref&gt; presents weekly classical music concerts, and educational concerts for children and teenagers. The concerts take place in the newly restored [[Thalia Hall]], a concert and theatre hall dating from 1787, situated along the old city fortifications. Weekly [[organ (music)|organ]] concerts are organised at the [[Sibiu Lutheran Cathedral|Evangelical Cathedral]] during summers, and thematic concerts are presented by the Faculty of Theology choir at the [[Sibiu Orthodox Cathedral|Orthodox Cathedral]].
+
+The [[Sibiu International Theatre Festival]] is an annual festival of performing arts.
+
+===Museums and parks===
+
+[[File:Brukenthal-sibiu.jpg|thumb|Brukenthal National Museum, Sibiu.]]
+[[File:Sibiu-park-bicycle.jpg|thumb|Bicycle riders in Sub Arini park, in Sibiu.]]
+
+Sibiu's museums are organised around two entities: the [[Brukenthal National Museum]] and the [[ASTRA National Museum Complex]]. The Brukenthal Museum consists of an Art Gallery and an Old Books Library located inside the Brukenthal Palace, a History Museum located in the old town hall building, a Pharmacy Museum located in one of the first [[apothecary]] shops in Europe, dating from the 16th century, a Natural History Museum and a Museum of Arms and Hunting Trophies.
+
+The [[ASTRA National Museum Complex]] focuses on [[ethnography]], and consists of a Traditional Folk Civilisation Museum, a 96-[[hectare]] open-air museum located in Dumbrava Forest south of Sibiu, a Universal Ethnography Museum, a Museum of Transylvanian Civilisation and a Museum of Saxon Ethnography and Folk Art. Also planned is a Museum of the Culture and Civilisation of the Romany People.
+
+The [[Dumbrava Sibiului Natural Park]] stretches over 960 hectares and it is situated 4&amp;nbsp;km away from the center of the city in the southwest direction along the road towards Răşinari. Also, here you can find the Zoological Garden and Ethnography Museum.
+
+There is a [[Sibiu Steam Locomotives Museum|Steam Locomotives Museum]] close to the railway station, sheltering around 40 [[steam locomotive|locomotives]], two of which are functional.
+
+The first park in the city was The Promenade, later called &quot;The Disabled Promenade.&quot; established in 1791, today part of Parcul Cetății (Citadel Park). Current arrangement of the park, including the space between the walls, dates from 1928.
+
+The Sub Arini Park, established in 1856 is one of the biggest and best maintained parks in Romania. There are other green spaces in the city center, the best known being Astra Park, established in 1879.
+
+Other parks:
+
+Tineretului Park, Reconstrucției Park, Corneliu Coposu Park, Petöfi Sándor Park, Piața Cluj Park, Ștrand Park, Cristianului Park, Țițeica Park, Vasile Aaron Park, Lira Park.
+
+The distribution of green space is good compared to other Romanian cities.
+
+===Events===
+Several festivals are organised yearly in Sibiu, the most prestigious of them being the [[Sibiu International Theatre Festival]], organized each spring at the end of May. Medieval Festival organized every year in August, reviving the medieval spirit of [[Transylvania]]. 
+The [[Artmania Festival]] is held every Summer since 2006 and as of 2008 the Rockin' Transilvania Festival is also held in Sibiu. 
+The oldest [[Jazz Festival of Sibiu|Jazz Festival]] in Romania is organized here, as well as the &quot;Carl Filtsch&quot; festival for young classical piano players, the &quot;Astra Film&quot; documentary film festival, the Transylvania calling Festival a Multi Cultural 6 day Open Air Music festival! 26–31 July 2007, a  medieval arts festival and many more smaller cultural events.&lt;ref&gt;[http://www.sibiu.ro/ro/cultura2005.htm 2006 Cultural Programme]&lt;/ref&gt;
+
+===European Cultural Capital===
+The designation as a [[European Capital of Culture|European Cultural Capital]] for 2007, owed greatly to the excellent collaboration with [[Luxembourg (city)|Luxembourg]], but also to what many regard as a miraculous social rebirth taking place in the city during the last years. The Cultural Capital status was expected to bring about an abrupt increase in quantity and quality of cultural events in 2007.
+
+==Tourism==
+In 2007, Sibiu was the [[European Capital of Culture]] (together with [[Luxembourg (city)|Luxembourg]]). This was the most important cultural event that has ever happened in the city, and a great number of tourists came, both domestic and foreign.
+
+[[File:Kirchehammersdorf.jpg|thumb|200px|[[Villages with fortified churches in Transylvania|Fortified church]] of Gușterița neighbourhood]]
+The city of Sibiu and its surroundings are one of the most visited areas in Romania. It holds one of the best preserved historical sites in the country, many of its medieval fortifications having been kept in excellent state. Its old center has begun the process for becoming a [[UNESCO]] [[World Heritage Site]] in 2004. Sibiu and its surrounding area have many significant museums, with 12 institutions housing art collections, paintings, and exhibits in decorative arts, archeology, anthropology, history, industrial archeology and history of technology and natural sciences.
+
+The city also lies close to the [[Făgăraș Mountains]] - a very popular trekking destination, close to the [[Păltiniș]] and Arena Platos ski resorts - popular winter holiday destinations, and it is at the heart of the former Saxon communities in Transylvania renowned for its [[Villages with fortified churches in Transylvania|fortified churches]].
+
+===Main sights===
+[[File:Podul.JPG|left|thumb|200px|Bridge of Lies and the Evangelical Church in the background]]
+[[File:Piața Mare Sibiu - vedere către biserica romano-catolică.jpg|thumb|200px|Christmas Fair in the Grand Square]]
+[[File:Sibiu - Turnul Dulgherilor.jpg|thumb|200px|left|Coopers Tower]]
+[[File:Catedrala Ortodoxa din Sibiu.JPG|left|thumb|200px|[[Sibiu Orthodox Cathedral]]]]
+[[File:Sibiu Turnul Gros (4).jpg|thumb|200px|right|[[Thalia Hall|The Thick Tower]]]]
+
+Much of the city's aspect is due to its position, easily defensible, but allowing horizontal development. The old city of Sibiu lies on the right bank of the Cibin River, on a hill situated at about 200 m from the river. It consists of two distinct entities: the ''Upper Town'' and the ''Lower Town''. Traditionally, the Upper Town was the wealthier part and commercial outlet, while the Lower Town served as the manufacturing area.
+
+'''The Lower Town'''
+(German: ''Unterstadt'', Romanian: ''Orașul de jos'') comprises the area between the river and the hill, and it developed around the earliest fortifications. The streets are long and quite wide for medieval city standards, with small city squares at places. The architecture is rather rustic: typically two-storey houses with tall roofs and gates opening passages to inner courts.
+
+Most of the exterior fortifications were lost to industrial development and modern urban planning in the mid-late 19th century; only four towers still exist. A building associated with newer urbanism of the period is the ''Independența'' Highschool.
+
+This area has the oldest church in the city, dating back to 1292.
+
+'''The Upper Town'''
+(German: ''Oberstadt'', Romanian: ''Orașul de sus'') is organised around three city squares and a set of streets along the line of the hill. As the main area for [[Bourgeoisie|burgher]] activities, the area contains most points of interest in the city.
+
+'''Grand Square'''
+(German: ''Großer Ring'', Romanian: ''Piața Mare'' ) is, as its name suggests, the [[List of town squares by size|largest square]] of the city, and has been the center of the city since the 15th century. 142&amp;nbsp;m long and 93&amp;nbsp;m wide, it is one of the largest ones in Transylvania.
+
+[[Brukenthal Palace]], one of the most important [[Baroque]] monuments in Romania, lies on the north-western corner of the square. It was erected between 1777 and 1787 as the main residence for the Governor of Transylvania [[Samuel von Brukenthal]]. It houses the main part of the ''National Brukenthal Museum'', opened in 1817, making it one of the oldest museums in the world. Next to the palace is the ''Blue House'' or ''Moringer House'', an 18th-century Baroque house bearing the old coat of arms of Sibiu on its façade.
+
+On the north side is the [[Jesuit]] Church, along with its dependencies, the former residence of the Jesuits in Sibiu. Also on the north side, at the beginning of the 20th century an ''[[Art Nouveau]]'' building was constructed on the west part, now it houses the mayor's office.
+
+Next to the Jesuit Church on the north side is the ''Council Tower'', one of the city's symbols. This former fortification tower from the 13th century has been successively rebuilt over the years. The building nearby used to be the City Council's meetingplace; beneath it lies an access way between the ''Grand Square'' and the ''Lesser Square''.
+
+On the south and east sides are two- or three-storey houses, having tall attics with small windows known as the ''city's eyes''. Most of these houses are dated 15th to 19th centuries, and most of them are Renaissance or Baroque in style.
+
+'''Lesser Square'''
+(''Small Square'', German: ''Kleiner Ring'') as its name implies, is a smaller square situated in the northern part of the Upper Town. After the 2007 rehabilitation there has been an increase in the number of small businesses such as pubs and restaurants in this area.
+
+The square is connected to the other two squares and to other streets by small, narrow passages. The main access from the Lower City is through Ocnei Street, which divides the square in two. The street passes under the ''Liar's Bridge'' - the first bridge in Romania to have been cast in iron (1859).&lt;ref&gt;[http://welcometoromania.ro/Sibiu/Sibiu_Podul_Mincinosilor_e.htm The Bridge of Lies]&lt;/ref&gt;
+
+To the right of the bridge is another symbol of the city, ''The House of the Arts'', an 14th-century arched building formerly belonging to the Butchers' Guild. On the left side of the bridge is the ''Luxemburg House'', a Baroque four-storey building.
+
+'''Huet Square'''
+is the third of the three main squares of Sibiu. Its most notable feature is the [[Sibiu Lutheran Cathedral|Evangelical Lutheran Cathedral]] in its center. It is the place where the earliest fortifications have been built in the late 12th century or early 13th century. The buildings around this square are mainly [[Gothic architecture|Gothic]]. On the west side lies the Brukenthal Highschool, in place of a former 14th-century school.
+
+'''The Fortifications'''
+of Sibiu made the city one of the most important fortified cities in Central Europe. Multiple rings were built around the city, most of them out of clay bricks. The south-eastern fortifications are the best kept, and all three parallel lines are still visible. The first is an exterior earth mound, the second is a 10-meter-tall red brick wall, and the third line comprises towers linked by another 10-meter-tall wall. All structures are connected via a labyrinth of tunnels and passageways, designed to ensure transport between the city and lines of defense.
+
+In the 16th century more modern elements were added to the fortifications, mainly leaf-shaped [[bastion]]s. Two of these survived to this day, as the ''Haller Bastion'' (all the way down Coposu Boulevard) and &quot;Soldisch Bastion&quot;.
+
+'''The Passage of the Stairs''',
+leads down to the lower section of Sibiu. It descends along some fortifications under the support arches. It is the most picturesque of the several passages linking the two sides of the city.
+
+==Health==
+
+Sibiu is one of the important medical centers of Romania, housing many important medical facilities:
+* County Hospital
+* Academic Emergency Hospital;
+* Hospital of Pediatrics;
+* Military Emergency Hospital;
+* CFR Hospital (Romanian Railways Hospital);
+* &quot;Dr. Gheorghe Preda&quot; Psychiatry Hospital
+* other smaller private clinics
+
+The city also houses one of the largest private hospitals in the country, Polisano.
+
+==Education==
+
+Sibiu is an important centre of higher education, with over 23,000 students in four public and private higher institutions.&lt;ref&gt;[http://www.ulbsibiu.ro/en/despre_ulbs/ About Lucian Blaga University of Sibiu]&lt;/ref&gt;&lt;ref&gt;[http://www.mediafax.ro/social/reportaj-sefa-de-promotie-la-academia-fortelor-terestre-a-fost-o-lupta-intre-a-rezista-si-a-avea-vointa-foto-12957248 Land Forces Military Academy] at mediafax.ro&lt;/ref&gt;&lt;ref&gt;[http://www.roger-univ.ro/universitate/prezentare-urgs.html About Sibiu Romanian-German University]&lt;/ref&gt;&lt;ref&gt;[http://www.uamsibiu.ro/universitate/istoric/ About Alma Mater University]&lt;/ref&gt;
+
+The [[Lucian Blaga University of Sibiu]] was founded in 1990, with five faculties: Engineering and Sciences; Language Sciences; History and Law; Medicine; Food and Textile Processing Technology. Nowadays, there are 10 faculties and departments.
+
+Sibiu also houses the [[Nicolae Bălcescu Land Forces Academy]] and the Military Foreign Language Center as well as two private universities, ''Romanian-German University'' and ''Alma Mater University''.
+
+[[File:Liceul Samuel von Brukenthal.jpg|thumb|Samuel von Brukenthal High School]]
+
+In Sibiu there are 20 educational institutions on the secondary level, the most important of which are:
+*[[Gheorghe Lazăr National College (Sibiu)|Gheorghe Lazăr National College]] - sciences and informatics, first opened in 1692 as a [[List of Jesuit institutions|Jesuit College]]
+*[[Samuel von Brukenthal National College]] - German language high school
+*[[Octavian Goga]] National College - social sciences, sciences and informatics
+*[[Onisifor Ghibu]] Theoretical Highschool - informatics, social sciences and sports
+*[[Andrei Șaguna]] National College - training for schoolteachers, informatics, social sciences and sports
+*[[Constantin Noica]] Theoretical Highschool - social sciences and sciences
+*Daniel Popovici Barcianu Highschool - agricultural and economic sciences
+*[[George Bariţ|George Baritiu]] National College - economic sciences
+*[[Nicolae Iorga]] Elementary school
+*[[Marie of Romania|Regina Maria]] Elementary school
+
+==Sports==
+The city houses a municipal stadium, a multi-functional arena building, a rugby court, a municipal pool and several private tennis courts.
+
+===Teams===
+;Rugby
+* CSM Sibiu
+
+;Volleyball
+* CSM Sibiu (men)
+* CSS Sibiu (women)
+
+;Basketball
+* [[CSU Atlassib Sibiu]] (men)
+
+;Handball
+* CSM Sibiu (women)
+* CSM Sibiu (men)
+
+;Speed Skating
+* CSS Sibiu
+
+== Natives ==
+{{Category see also|People from Sibiu}}
+{{colbegin|colwidth=25em|small=yes}}
+* [[Michael Gottlieb Agnethler]], botanist
+* [[Alexandru Apolzan]], football player
+* [[Arthur Arz von Straussenburg]], Austro-Hungarian general
+* [[Florin Barbu]], bass player in Romanian bands Timpuri Noi and Proconsul
+* [[Claudiu Baștea]]
+* [[Ion Besoiu]], Romanian actor
+* [[Miklós Borsos]], Hungarian sculptor
+* [[Dan Burincă]]
+* [[Andrei Codrescu]], American writer
+* [[Sabina Cojocar]], Romanian gymnast
+* [[Alexandru Curtean]]
+* [[Steve Holmes (actor)|Steve Holmes]], German pornographic actor
+* [[Victor Iliu]], Romanian film director
+* [[Klaus Iohannis]], president of Romania
+* [[Hermann Kusmanek von Burgneustädten]], Austro-Hungarian general, see also [[Siege of Przemyśl]]
+* [[Mircea Mureșan]], Romanian film director
+* [[Alexandru Mușina]], Romanian poet
+* [[Steliana Nistor]], Romanian gymnast
+* [[Hermann Oberth]], space flight technology pioneer
+* [[Nicolaus Olahus]], Catholic archbishop of Esztergom
+* [[Oskar Pastior]], poet and translator
+* [[Dan Perjovschi]], Romanian artist
+* [[Claudia Presecan]], Romanian gymnast
+* [[Iancu Sasul]], Moldavian ruler
+* [[Viorel Tilea]], Romanian diplomat
+{{colend}}
+
+== Twinned towns ==
+Sibiu has twinning agreements with:
+
+{{colbegin|colwidth=25em|small=yes}}
+* {{flagicon|BRA}} [[Bauru]], Brazil, since 1995.
+* {{flagicon|PHL}} [[Butuan]], Philippines
+* {{flagicon|USA}} [[Columbia, Missouri|Columbia]], USA, since 1994.
+* {{flagicon|NED}} [[Deventer]], the Netherlands, since 2007.&lt;ref&gt;{{ro icon}} Sibiu Town Hall Official Site, [http://www.sibiu.ro/cms/news_more.php?id=424_0_1_0_C Acordul de infratire intre Sibiu si orasul Deventer din Olanda], 23 May 2007&lt;/ref&gt; 
+* {{flagicon|AUT}} [[Klagenfurt]], Austria, since 1990.
+* {{flagicon|GER}} [[Landshut]], Germany, since 2002.
+* {{flagicon|GER}} [[Marburg]], Germany, since 2005.
+* {{flagicon|BEL}} [[Mechelen]], Belgium, since 1996.
+* {{flagicon|FRA}} [[Rennes]], France, since 1999.
+* {{flagicon|VEN}} [[Valencia, Venezuela]], since 1993.
+* {{flagicon|GBR}} [[Metropolitan Borough of Wirral|Wirral]], United Kingdom, since 1994.
+* {{flagicon|JPN}} [[Takayama, Gifu]], Japan, since 2009.
+{{colend}}
+
+==Consulates in Sibiu==
+*{{flagicon|GER}} [[Germany|Federal Republic of Germany]] - Consulate-General
+
+Honorary Consulates:
+*{{flagicon|AUT}} [[Austria|Republic of Austria]]
+*{{flagicon|LUX}} [[Grand Duchy of Luxembourg]]
+
+== Gallery ==
+&lt;gallery&gt;
+File:Hermanstatt (Sibiu), 17th century engraving.jpg|Copper engraving of Sibiu (''Hermanstatt''), c. 1630.
+File:Lanzedelli - Târg în Transilvania 4.jpg|A busy market scene in Sibiu, 1818
+File:Josephinische Landaufnahme pg220.jpg|Sibiu and surroundings in the 18th century
+File:Spezialkarte Nagyszeben (Hermannstadt) - Sibiu 1911.jpg|Sibiu region at the beginning of the 20th century
+File:Piata Mica si Turnul Sfatului.jpg|Turnul Sfatului in Small Square
+File:Tilt shift Sibiu.jpg|Huet Square
+&lt;/gallery&gt;
+
+== See also ==
+* [[List of castles in Romania]]
+* [[Timeline of Sibiu]]
+* [[Tourism in Romania]]
+* [[Villages with fortified churches in Transylvania]]
+
+==References==
+{{reflist|2}}
+
+==External links==
+{{commons category|Sibiu}}
+{{wikivoyage|Sibiu}}
+* [http://www.sibiu.ro Sibiu.ro: Official Sibiu Online website] — ''tourism and history information and images''. {{ro icon}}, {{en icon}}, {{de icon}}
+* [http://www.turism.sibiu.ro/index_en.php Turism.sibiu.ro: Official Sibiu Tourism website] {{ro icon}}, {{en icon}}, {{de icon}}
+* [http://patrimoniu.sibiu.ro/en patrimoniu.sibiu.ro: Sibiu Heritage website] {{ro icon}}, {{en icon}}
+* [http://sibiu.thefest.ro/ theFest.ro - Locuri si evenimente din Sibiu, Romania] {{ro icon}}
+* [http://www.romaniatourism.com/sibiu.html RomaniaTourism.com: Sibiu] — ''reference for surface area, population, etc. (2005)''.
+* [http://sibiupeople.ro/en/reports/474 Sibiupeople.ro: Restoration of Historical Monuments in Sibiu] —''photo gallery and projects' report''.
+* [http://www.sibiu2007.ro Official Sibiu European Cultural Capital 2007 website] {{ro icon}}, {{en icon}}, {{de icon}}
+* [http://www.thediplomat.ro/features_1206_2.htm ''The Diplomat'': article; &quot;Sibiu as Capital of Culture&quot;] {{ro icon}}
+* [http://www.rozylowicz.com/retirement/romania2010/romania2010-2.html#sib Rozylowicz.com: photos, videos, and retirement information]
+* [http://www.descopera.net/foto_sibiu.html Descopera.net: Sibiu in pictures]
+* [http://www.sibiutourguide.com/sibiu-tour.html Pictures of Sibiu]
+
+{{Sibiu County}}
+{{Cities in Romania}}
+{{RoJudCapitals}}
+{{European Capital of Culture}}
+
+{{Authority control}}
+
+[[Category:Sibiu| ]]
+[[Category:Populated places in Sibiu County| ]]
+[[Category:Capitals of Romanian counties]]
+[[Category:Cities in Romania]]
+[[Category:1190 establishments]]
+[[Category:German communities in Romania]]
+[[Category:Capitals of the Principality of Transylvania]]
+[[Category:Populated places established in the 12th century]]</text>
+      <sha1>ib2tacr1vmmwusuklq9nnwneb08194f</sha1>
     </revision>
   </page>
 </mediawiki>
