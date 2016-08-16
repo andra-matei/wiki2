@@ -130,13 +130,13 @@ public class CountWords {
         int lastWord = -1;
         int counter = 0;
         if (values.size() >= 10) {
-            for (Integer i : values.subList(0, 9)) {
+            for (Integer i : values.subList(0, 10)) {
                 if (lastWord == i) // without duplicates
                     continue;
                 lastWord = i;
                 for (String s : wordCount.keySet()) {
                     if (wordCount.get(s) == i) { // which have this value
-                        if (counter <= 10) {
+                        if (counter <= 9) {
                             Word wordEntity = new Word();
                             wordEntity.setName(s);
                             wordEntity.setOccurrences(i);
