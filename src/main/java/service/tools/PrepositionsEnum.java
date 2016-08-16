@@ -1,9 +1,14 @@
 package service.tools;
 
 /**
- * Created by andmatei on 8/11/2016.
+ * @author Adrian Zburatura
+ * @author Andra Matei
+ *         <p>
+ *         Contains the words never taken into account
+ *         </p>
+ * @version %I%, %G%
  */
-public enum  PrepositionsEnum {
+public enum PrepositionsEnum {
     THE,
     OF,
     IN,

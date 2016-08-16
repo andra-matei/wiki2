@@ -8,25 +8,45 @@ import repository.ArticleRepository;
 import service.ArticleService;
 
 /**
- * Created by azburatura on 8/11/2016.
+ * @author Adrian Zburatura
+ * @author Andra Matei
+ * @version %I%, %G%
  */
 @Service
 @Transactional
 public class ArticleServiceImpl implements ArticleService {
 
+    /**
+     * Injected ArticleRepository bean
+     */
     @Autowired
     private ArticleRepository articleRepository;
 
+    /*
+     * (non-Javadoc)
+	 *
+	 * @see repository.ArticleRepository.java
+	 */
     @Override
     public void saveArticle(Article article) {
         articleRepository.saveArticle(article);
     }
 
+    /*
+     * (non-Javadoc)
+	 *
+	 * @see repository.ArticleRepository.java
+	 */
     @Override
     public void updateArticle(Article article) {
         articleRepository.updateArticle(article);
     }
 
+    /*
+     * (non-Javadoc)
+	 *
+	 * @see repository.ArticleRepository.java
+	 */
     @Override
     public Article findArticleByName(String title) {
         return articleRepository.findArticleByName(title);

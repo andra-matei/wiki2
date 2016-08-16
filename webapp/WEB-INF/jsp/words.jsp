@@ -10,19 +10,49 @@
 <html>
 <head>
     <title>Top 10 words</title>
+    <script type="text/javascript" src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </head>
 <body>
 
-<table border="1">
-    <th>Name</th>
-    <th>Occurences</th>
-    <c:forEach items="${wordList}" var="word">
-        <tr>
-            <td><c:out value="${word.name}"/></td>
-            <td><c:out value="${word.occurences}"/></td>
-        </tr>
-    </c:forEach>
-</table>
+<script type="text/javascript">
+    window.onload = function () {
+        var chart = new CanvasJS.Chart("chartContainer",
+                {
+                    title: {
+                        text: "${articleTitle}"
+                    },
+                    animationEnabled: true,
+                    axisY: {
+                        title: "Occurrences"
+                    },
+                    legend: {
+                        verticalAlign: "bottom",
+                        horizontalAlign: "center"
+                    },
+                    theme: "theme2",
+                    data: [
+
+                        {
+                            type: "column",
+                            showInLegend: true,
+                            legendMarkerColor: "grey",
+                            legendText: "Top 10 words",
+                            dataPoints: [
+                                <c:forEach items="${wordList}" var="word">
+                                {y:   <c:out value="${word.occurences}"/>, label: "<c:out value="${word.name}"/>"},
+                                </c:forEach>
+                            ]
+                        }
+                    ]
+                });
+
+        chart.render();
+    }
+</script>
+
+
+<div id="chartContainer" style="height: 300px; width: 100%;">
+</div>
 
 </body>
 </html>

@@ -11,22 +11,31 @@ import service.tools.ParseFile;
 import java.util.List;
 
 /**
- * Created by andmatei on 8/12/2016.
+ * @author Adrian Zburatura
+ * @author Andra Matei
+ *         <p>
+ *         Spring MVC Controller class controlling the reading of titles from a file.
+ *         </p>
+ * @version %I%, %G%
  */
 @Controller
 @RequestMapping(value = "/readFile")
 public class ReadFromFileController {
 
+    /**
+     * Injected ParseFile bean
+     */
     @Autowired
     private ParseFile parseFile;
 
+    /**
+     * @param model holder for model attributes
+     * @return
+     */
     @RequestMapping(method = RequestMethod.POST)
     public String readFromFile(Model model) {
-
         List<Word> wordList = parseFile.readFromFile(null);
         model.addAttribute("wordListFromFile", wordList);
-
         return "readingFile";
     }
-
 }

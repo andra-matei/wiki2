@@ -8,15 +8,25 @@ import repository.WordRepository;
 import service.WordService;
 
 /**
- * Created by azburatura on 8/11/2016.
+ * @author Adrian Zburatura
+ * @author Andra Matei
+ * @version %I%, %G%
  */
 @Service
 @Transactional
 public class WordServiceImpl implements WordService {
 
+    /**
+     * Injected WordRepository bean
+     */
     @Autowired
     private WordRepository wordRepository;
 
+    /*
+     * (non-Javadoc)
+	 *
+	 * @see repository.WordRepository.java
+	 */
     @Override
     public void saveWord(Word word) {
         wordRepository.saveWord(word);

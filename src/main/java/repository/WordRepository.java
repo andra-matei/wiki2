@@ -7,7 +7,9 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 /**
- * Created by azburatura on 8/11/2016.
+ * @author Adrian Zburatura
+ * @author Andra Matei
+ * @version %I%, %G%
  */
 @Repository
 public class WordRepository {
@@ -15,7 +17,9 @@ public class WordRepository {
     @PersistenceContext
     private EntityManager entityManager;
 
-
+    /**
+     * @param word the word to be persisted
+     */
     public void saveWord(Word word) {
         entityManager.persist(word);
         entityManager.flush();

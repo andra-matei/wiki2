@@ -3,7 +3,12 @@ package service;
 import model.Article;
 
 /**
- * Created by azburatura on 8/11/2016.
+ * @author Adrian Zburatura
+ * @author Andra Matei
+ *         <p>
+ *         Lists the methods implemented in service.impl.ArticleServiceImpl.java
+ *         </p>
+ * @version %I%, %G%
  */
 public interface ArticleService {
 
