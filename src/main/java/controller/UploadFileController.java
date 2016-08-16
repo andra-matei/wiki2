@@ -63,9 +63,14 @@ public class UploadFileController {
                     stream.flush();
 
                     List<Word> wordList = parseFile.readFromFile(pathToFile);
-                    model.addAttribute("wordListFromFile", wordList);
-
-                    return "readingFile";
+                    String title = wordList.get(0).getArticle().getTitle();
+                    if (wordList == null || (wordList.size() == 0)) {
+                        model.addAttribute("eroare", BaseKeys.ERROR_404);
+                    } else {
+                        model.addAttribute("articleTitle", title);
+                        model.addAttribute("wordList", wordList);
+                    }
+                    return "words";
                 }
             } catch (Exception e) {
                 return "You failed to upload " + file.getName() + " => " + e.getMessage();

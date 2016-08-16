@@ -1,5 +1,6 @@
 package controller;
 
+import keys.BaseKeys;
 import model.Word;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -35,7 +36,13 @@ public class ReadFromFileController {
     @RequestMapping(method = RequestMethod.POST)
     public String readFromFile(Model model) {
         List<Word> wordList = parseFile.readFromFile(null);
-        model.addAttribute("wordListFromFile", wordList);
-        return "readingFile";
+        String title = wordList.get(0).getArticle().getTitle();
+        if (wordList == null || (wordList.size() == 0)) {
+            model.addAttribute("eroare", BaseKeys.ERROR_404);
+        } else {
+            model.addAttribute("articleTitle", title);
+            model.addAttribute("wordList", wordList);
+        }
+        return "words";
     }
 }

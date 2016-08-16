@@ -57,7 +57,7 @@ public class HomeController {
         if (wordList == null) {
             wordList = countWords.countWords();
         }
-        if (wordList == null) {
+        if (wordList == null || (wordList.size() == 0)) {
             model.addAttribute("eroare", BaseKeys.ERROR_404);
         } else {
             model.addAttribute("articleTitle", title);

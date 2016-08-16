@@ -11,6 +11,8 @@
 <head>
     <title>Top 10 words</title>
     <script type="text/javascript" src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -55,10 +57,10 @@
 
 <c:choose>
     <c:when test="${empty wordList}">
-        <h2 id="chartContainer" style="color: crimson">"${eroare}"</h2>
+        <h1 id="chartContainer" class="alert alert-danger" style="text-align: center">"${eroare}"</h1>
     </c:when>
     <c:otherwise>
-        <div id="chartContainer" style="height: 300px; width: 100%;">
+        <div id="chartContainer" style="height: 100%; width: 100%;">
         </div>
     </c:otherwise>
 </c:choose>

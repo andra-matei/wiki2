@@ -146,8 +146,7 @@ public class CountWords {
                             article.getWords().add(wordEntity);
                             articleService.updateArticle(article);
                         }
-
-                        System.out.println(s + " " + i);
+                        
                         counter++;
                     }
                 }
