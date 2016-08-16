@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <%--
   Created by IntelliJ IDEA.
   User: azburatura
@@ -8,27 +9,32 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-    <title>Home page</title>
+    <link rel="stylesheet" type="text/css" href="/resources/style/mystyle.css">
+    <title>Wiki Indexer</title>
 </head>
 <body>
-<div class="bg-warning">
+<div id="allText" class="myDiv">
+    <div class="bg-warning">
 
-    <h2>Hello, aici inserati titlu</h2>
+        <h2 class="center">Welcome to Wiki Indexer!</h2>
 
-    <form action="/" method="post">
-        <input type="text" name="title">
-        <button type="submit" value="submit" class="btn btn-info">Apasa Aici</button>
-    </form>
-
-
-    <form action="/readFile" method="post">
-        <button type="submit" value="submit" class="btn btn-info" >Read From File</button>
-    </form>
+        <form action="/" method="post" class="center">
+            <input type="text" name="title" placeholder="Insert here the article title">
+            <button type="submit" value="submit" class="buton" style="width: 140px">Press Here</button>
+        </form>
 
 
-    <br/>
-    <button type="button" class="btn btn-info" onclick="window.location='/uploadFile'">Upload 1 file page</button>
+        <form action="/readFile" method="post" class="center">
+            <button type="submit" class="buton" value="submit"  style="width: 140px">Read From File</button>
+            <br/>
+            <br/>
+            <button type="button" class="buton" onclick="window.location='/uploadFile'" style="width: 140px">Upload File Page
+            </button>
+        </form>
+
+    </div>
+
 </div>
+
 </body>
 </html>
