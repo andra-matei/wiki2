@@ -61,20 +61,22 @@ public class CountWords {
         article.setUrl(BaseKeys.URL_WIKI + article.getTitle());
         articleService.saveArticle(article);
 
-        try(BufferedReader in = new BufferedReader(new FileReader(BaseKeys.PATH_TO_XML_FILE))) {
+        try (BufferedReader in = new BufferedReader(new FileReader(BaseKeys.PATH_TO_XML_FILE))) {
             putTheWordsInMap(in, wordCount);
         } catch (Exception e) {
             System.err.println("Exception");
         }
 
-        persisting(wordCount, article);
-        return article.getWords();
+       if(persisting(wordCount, article)) {
+           return article.getWords();
+       }else{
+           return null;
+       }
     }
 
     /**
-     *
      * @param inputFile
-     * @param wordCount  contains each word from the article
+     * @param wordCount contains each word from the article
      *                  "article" with its occurrences
      * @throws IOException
      */
@@ -99,11 +101,11 @@ public class CountWords {
             }
         }
     }
+
     /**
-     *
      * @return the concatenation of all titles
      */
-    private String allTitles(){
+    private String allTitles() {
         String[] titlesArray = writeFileFromXML.getTitleForUrl().split(BaseKeys.SEPARATOR_FOR_TITLE);
         String titles = "";
         for (String s : titlesArray) {
@@ -111,6 +113,7 @@ public class CountWords {
         }
         return titles;
     }
+
     /**
      * Calculates the first ten words from the article "article"
      * and persists them in the database.
@@ -119,37 +122,43 @@ public class CountWords {
      *                  "article" with its occurrences
      * @param article
      */
-    private void persisting(Map<String, Integer> wordCount, Article article) {
+    private boolean persisting(Map<String, Integer> wordCount, Article article) {
         List<Integer> values = new ArrayList<>();
         values.addAll(wordCount.values());
         Collections.sort(values, Collections.reverseOrder());
 
         int lastWord = -1;
         int counter = 0;
-        for (Integer i : values.subList(0, 9)) {
-            if (lastWord == i) // without duplicates
-                continue;
-            lastWord = i;
-            for (String s : wordCount.keySet()) {
-                if (wordCount.get(s) == i) { // which have this value
-                    if (counter <= 10) {
-                        Word wordEntity = new Word();
-                        wordEntity.setName(s);
-                        wordEntity.setOccurrences(i);
-                        wordEntity.setArticle(article);
-                        wordService.saveWord(wordEntity);
+        if (values.size() >= 10) {
+            for (Integer i : values.subList(0, 9)) {
+                if (lastWord == i) // without duplicates
+                    continue;
+                lastWord = i;
+                for (String s : wordCount.keySet()) {
+                    if (wordCount.get(s) == i) { // which have this value
+                        if (counter <= 10) {
+                            Word wordEntity = new Word();
+                            wordEntity.setName(s);
+                            wordEntity.setOccurrences(i);
+                            wordEntity.setArticle(article);
+                            wordService.saveWord(wordEntity);
 
-                        article.getWords().add(wordEntity);
-                        articleService.updateArticle(article);
+                            article.getWords().add(wordEntity);
+                            articleService.updateArticle(article);
+                        }
+
+                        System.out.println(s + " " + i);
+                        counter++;
                     }
-
-                    System.out.println(s + " " + i);
-                    counter++;
                 }
-            }
 
+            }
+            return true;
+        } else {
+            return false;
         }
     }
+
     /**
      * It compares the string "word" to each one from the enum PrepositionEnum.
      * If it finds a match, it means the string "word" is a preposition.

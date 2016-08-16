@@ -1,5 +1,6 @@
 package controller;
 
+import keys.BaseKeys;
 import model.Word;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -56,8 +57,12 @@ public class HomeController {
         if (wordList == null) {
             wordList = countWords.countWords();
         }
-        model.addAttribute("articleTitle", title);
-        model.addAttribute("wordList", wordList);
+        if (wordList == null) {
+            model.addAttribute("eroare", BaseKeys.ERROR_404);
+        } else {
+            model.addAttribute("articleTitle", title);
+            model.addAttribute("wordList", wordList);
+        }
         return "words";
     }
 

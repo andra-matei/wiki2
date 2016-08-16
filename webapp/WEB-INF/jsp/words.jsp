@@ -14,45 +14,55 @@
 </head>
 <body>
 
-<script type="text/javascript">
-    window.onload = function () {
-        var chart = new CanvasJS.Chart("chartContainer",
-                {
-                    title: {
-                        text: "${articleTitle}"
-                    },
-                    animationEnabled: true,
-                    axisY: {
-                        title: "Occurrences"
-                    },
-                    legend: {
-                        verticalAlign: "bottom",
-                        horizontalAlign: "center"
-                    },
-                    theme: "theme2",
-                    data: [
+<c:if test="${not empty wordList}">
 
-                        {
-                            type: "column",
-                            showInLegend: true,
-                            legendMarkerColor: "grey",
-                            legendText: "Top 10 words",
-                            dataPoints: [
-                                <c:forEach items="${wordList}" var="word">
-                                {y:   <c:out value="${word.occurences}"/>, label: "<c:out value="${word.name}"/>"},
-                                </c:forEach>
-                            ]
-                        }
-                    ]
-                });
+    <script type="text/javascript">
+        window.onload = function () {
+            var chart = new CanvasJS.Chart("chartContainer",
+                    {
+                        title: {
+                            text: "${articleTitle}"
+                        },
+                        animationEnabled: true,
+                        axisY: {
+                            title: "Occurrences"
+                        },
+                        legend: {
+                            verticalAlign: "bottom",
+                            horizontalAlign: "center"
+                        },
+                        theme: "theme2",
+                        data: [
 
-        chart.render();
-    }
-</script>
+                            {
+                                type: "column",
+                                showInLegend: true,
+                                legendMarkerColor: "grey",
+                                legendText: "Top 10 words",
+                                dataPoints: [
+                                    <c:forEach items="${wordList}" var="word">
+                                    {y:   <c:out value="${word.occurences}"/>, label: "<c:out value="${word.name}"/>"},
+                                    </c:forEach>
+                                ]
+                            }
+                        ]
+                    });
 
+            chart.render();
+        }
+    </script>
+</c:if>
 
-<div id="chartContainer" style="height: 300px; width: 100%;">
-</div>
+<c:choose>
+    <c:when test="${empty wordList}">
+        <h2 id="chartContainer" style="color: crimson">"${eroare}"</h2>
+    </c:when>
+    <c:otherwise>
+        <div id="chartContainer" style="height: 300px; width: 100%;">
+        </div>
+    </c:otherwise>
+</c:choose>
+
 
 </body>
 </html>
