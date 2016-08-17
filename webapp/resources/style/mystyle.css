@@ -86,8 +86,8 @@ body{
     text-decoration-color: lightgray;
     font-style: italic;
     font-family: Arial;
-    position: relative;
-    text-align: end;
-    margin-bottom: -50px;
     font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
 }

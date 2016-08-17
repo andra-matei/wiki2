@@ -41,11 +41,12 @@
     }
 </script>
 
-<p class="paragraf">
-    @Zburatura Adrian - Junior Developer</p>
-<p class="paragraf">
-    @Matei Andra - Junior AM Engineer</p>
-
+<div style="position: relative">
+    <p class="paragraf">
+        @Zburatura Adrian - Junior Developer
+        @Matei Andra - Junior AM Engineer
+    </p>
+</div>
 </body>
 </html>
 
