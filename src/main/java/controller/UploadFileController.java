@@ -63,12 +63,20 @@ public class UploadFileController {
                     stream.flush();
 
                     List<Word> wordList = parseFile.readFromFile(pathToFile);
+                    boolean fromDatabase = parseFile.isFromDatabase();
                     String title = wordList.get(0).getArticle().getTitle();
                     if (wordList == null || (wordList.size() == 0)) {
                         model.addAttribute("eroare", BaseKeys.ERROR_404);
                     } else {
                         model.addAttribute("articleTitle", title);
                         model.addAttribute("wordList", wordList);
+                        if (fromDatabase) {
+                            model.addAttribute("timeSpent", parseFile.getWriteFileFromXML().getDuration());
+                            model.addAttribute("source", BaseKeys.DATABASE_SOURCE);
+                        } else {
+                            model.addAttribute("timeSpent", parseFile.getCountWords().getDuration());
+                            model.addAttribute("source", BaseKeys.WIKI_SOURCE);
+                        }
                     }
                     return "words";
                 }

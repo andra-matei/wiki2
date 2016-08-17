@@ -22,6 +22,7 @@ import java.util.List;
 public class WriteFileFromXML {
 
     private String titleForUrl;
+    private long duration;
 
     /**
      * Injected concrete ArticleService bean
@@ -47,6 +48,7 @@ public class WriteFileFromXML {
      * it is returned from the database if the article was searched for previously
      */
     public List<Word> writeFileFromXML(String titleForUrl) {
+        long start = System.currentTimeMillis();
         Article article = articleService.findArticleByName(allTitles(titleForUrl));
         if (article == null) {
             this.titleForUrl = titleForUrl;
@@ -71,6 +73,8 @@ public class WriteFileFromXML {
             }
             return null;
         } else {
+            long end = System.currentTimeMillis();
+            duration = end - start;
             return article.getWords();
         }
     }
@@ -85,5 +89,9 @@ public class WriteFileFromXML {
             titles += s + " ";
         }
         return titles;
+    }
+
+    public long getDuration() {
+        return duration;
     }
 }

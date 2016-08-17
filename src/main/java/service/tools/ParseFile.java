@@ -32,6 +32,8 @@ public class ParseFile {
     @Autowired
     private WriteFileFromXML writeFileFromXML;
 
+    private boolean fromDatabase;
+
     /**
      * The method gets the path to a file with article titles.
      * It appends each title to one containing them all.
@@ -60,11 +62,12 @@ public class ParseFile {
             List<Word> wordsFromDatabase = writeFileFromXML.writeFileFromXML(titles.toString());
             if (wordsFromDatabase != null) {
                 wordList.addAll(wordsFromDatabase);
+                fromDatabase = true;
             } else {
                 List<Word> topTenWords = countWords.countWords();
                 wordList.addAll(topTenWords);
+                fromDatabase = false;
             }
-
             return wordList;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -73,5 +76,17 @@ public class ParseFile {
             e.printStackTrace();
             return null;
         }
+    }
+
+    public boolean isFromDatabase() {
+        return fromDatabase;
+    }
+
+    public CountWords getCountWords() {
+        return countWords;
+    }
+
+    public WriteFileFromXML getWriteFileFromXML() {
+        return writeFileFromXML;
     }
 }

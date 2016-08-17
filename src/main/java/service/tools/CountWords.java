@@ -12,7 +12,10 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
-import java.util.concurrent.*;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 /**
  * @author Adrian Zburatura
@@ -22,7 +25,7 @@ import java.util.concurrent.*;
 @Component
 public class CountWords {
     ExecutorService executor = Executors.newFixedThreadPool(4);
-    private long startTime,endTime, duration;
+    private long startTime, endTime, duration;
 
     /**
      * Injected WriteFileFromXML bean
@@ -90,21 +93,21 @@ public class CountWords {
             e.printStackTrace();
         }
 
+        if (persisting(wordCount, article)) {
 
-        endTime = System.currentTimeMillis();
-        duration = endTime-startTime;
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-        System.out.println("duration is :    "+duration);
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-        //////////////////////////////////////////////////////////////////////////////////////////////
+            endTime = System.currentTimeMillis();
+            duration = endTime - startTime;
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+            System.out.println("duration is :    " + duration);
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+            //////////////////////////////////////////////////////////////////////////////////////////////
 
-        if(persisting(wordCount, article)) {
-           return article.getWords();
-       }else{
-           return null;
-       }
+            return article.getWords();
+        } else {
+            return null;
+        }
     }
 
     /**
@@ -129,7 +132,7 @@ public class CountWords {
                     occurrences++;
                 }
                 if (!isPreposition(word) && (!word.toString().startsWith("<")) && (word.toString().matches("[a-zA-Z]+"))
-                        && (word.toString().length() >=2)) {
+                        && (word.toString().length() >= 2)) {
                     wordCount.put(word, occurrences);
                 }
             }
@@ -209,5 +212,7 @@ public class CountWords {
         return false;
     }
 
-
+    public long getDuration() {
+        return duration;
+    }
 }

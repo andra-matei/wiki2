@@ -54,14 +54,23 @@ public class HomeController {
     @RequestMapping(method = RequestMethod.POST)
     public String addArticle(@RequestParam("title") String title, Model model) {
         List<Word> wordList = writeFileFromXML.writeFileFromXML(title);
+        boolean fromDatabase = true;
         if (wordList == null) {
             wordList = countWords.countWords();
+            fromDatabase = false;
         }
         if (wordList == null || (wordList.size() == 0)) {
             model.addAttribute("eroare", BaseKeys.ERROR_404);
         } else {
             model.addAttribute("articleTitle", title);
             model.addAttribute("wordList", wordList);
+            if (fromDatabase) {
+                model.addAttribute("timeSpent", writeFileFromXML.getDuration());
+                model.addAttribute("source", BaseKeys.DATABASE_SOURCE);
+            } else {
+                model.addAttribute("timeSpent", countWords.getDuration());
+                model.addAttribute("source", BaseKeys.WIKI_SOURCE);
+            }
         }
         return "words";
     }

@@ -15,7 +15,7 @@
 <form method="POST" action="/upload" enctype="multipart/form-data" class="myDiv">
 
     <input type="file" name="file" id="file-1" class="inputfile inputfile-1"
-           onchange="setValue()" required/>
+           onchange="setValue()" required accept="text/plain"/>
 
     <label for="file-1">
         <%--Choose file to upload icon--%>

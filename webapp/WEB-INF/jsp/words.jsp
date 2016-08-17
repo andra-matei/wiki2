@@ -57,7 +57,7 @@
                                 type: "column",
                                 showInLegend: true,
                                 legendMarkerColor: "grey",
-                                legendText: "Top 10 words",
+                                legendText: "Top 10 words come from " + "${source}" + " Time spent: " + "${timeSpent}" + " milliseconds",
                                 dataPoints: [
                                     <c:forEach items="${wordList}" var="word">
                                     {y:   <c:out value="${word.occurences}"/>, label: "<c:out value="${word.name}"/>"},
