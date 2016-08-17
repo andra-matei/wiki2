@@ -12,9 +12,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 /**
  * @author Adrian Zburatura
@@ -74,33 +72,38 @@ public class CountWords {
         startTime = System.currentTimeMillis();
 
 
-        Runnable runnableTask = () -> {
-            try (BufferedReader in = new BufferedReader(new FileReader(BaseKeys.PATH_TO_XML_FILE))) {
-                putTheWordsInMap(in, wordCount);
-            } catch (Exception e) {
-                System.err.println("Exception");
-            }
-        };
-        executor.execute(runnableTask);
+        Future future = executor.submit(new Runnable() {
+            @Override
+            public void run() {
+                try (BufferedReader in = new BufferedReader(new FileReader(BaseKeys.PATH_TO_XML_FILE))) {
+                    putTheWordsInMap(in, wordCount);
+                } catch (Exception e) {
+                    System.err.println("Exception");
+                }
 
+            }
+        });
+
+
+        try {
+            future.get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
 
 
         endTime = System.currentTimeMillis();
         duration = endTime-startTime;
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println("duration is :    "+duration);
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
-        executor.shutdown();
-        try {
-            if (!executor.awaitTermination(800, TimeUnit.MILLISECONDS)) {
-                executor.shutdownNow();
-            }
-        } catch (InterruptedException e) {
-            executor.shutdownNow();
-        }
+
+
         //////////////////////////////////////////////////////////////////////////////////////////////
 
 
