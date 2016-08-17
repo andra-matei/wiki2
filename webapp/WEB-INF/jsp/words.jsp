@@ -20,20 +20,37 @@
     <%--Script for displaying the chart in CanvasJs--%>
     <script type="text/javascript">
         window.onload = function () {
+            CanvasJS.addColorSet("blueShades",
+                    [//colorSet Array
+
+                        "#66CCCC",
+                        "#388E8E",
+                        "#008080",
+                        "#2F4F4F",
+                        "#B4CDCD"
+                    ]);
             var chart = new CanvasJS.Chart("chartContainer",
                     {
+                        colorSet: "blueShades",
                         title: {
-                            text: "${articleTitle}"
+                            text: "${articleTitle}",
+                            fontSize: 40,
+                            titleFontFamily: "verdana",
                         },
                         animationEnabled: true,
+                        animationDuration: 2000,
+                        dataPointMaxWidth: 90,
                         axisY: {
-                            title: "Occurrences"
+                            title: "Occurrences",
+                            tickThickness: 1,
+                            gridThickness: 1,
                         },
                         legend: {
                             verticalAlign: "bottom",
                             horizontalAlign: "center"
                         },
                         theme: "theme2",
+                        backgroundColor: "beige",
                         data: [
 
                             {

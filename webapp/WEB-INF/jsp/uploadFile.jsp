@@ -12,10 +12,10 @@
 </head>
 <body class="bodyClass">
 
-<form method="POST" action="/uploadFileController" enctype="multipart/form-data" class="myDiv">
+<form method="POST" action="/upload" enctype="multipart/form-data" class="myDiv">
 
     <input type="file" name="file" id="file-1" class="inputfile inputfile-1"
-           onchange="setValue()"/>
+           onchange="setValue()" required/>
 
     <label for="file-1">
         <%--Choose file to upload icon--%>
@@ -27,7 +27,7 @@
     </label>
 
     <%--File Path Display--%>
-    <input type="text" readonly id="filePath" style="width: auto" placeholder="No path selected">
+    <input type="text" readonly id="filePath" style="width: auto" placeholder="No path selected" >
     <br/><br/><br/>
 
     <%--SUBMIT Button--%>

@@ -25,7 +25,7 @@ import java.util.List;
  * @version %I%, %G%
  */
 @Controller
-@RequestMapping(value = "/uploadFileController")
+@RequestMapping(value = "/upload")
 public class UploadFileController {
 
     /**
