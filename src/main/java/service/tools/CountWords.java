@@ -65,12 +65,8 @@ public class CountWords {
         articleService.saveArticle(article);
 
 
-
-
-
         //////////////////////////////////////////////////////////////////////////////////////////////
         startTime = System.currentTimeMillis();
-
 
         Future future = executor.submit(new Runnable() {
             @Override
@@ -84,7 +80,8 @@ public class CountWords {
             }
         });
 
-
+        // method get() while the task is still running => blocking the execution
+        // //until the task is properly executed and the result is available
         try {
             future.get();
         } catch (InterruptedException e) {
@@ -101,13 +98,7 @@ public class CountWords {
         System.out.println("duration is :    "+duration);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-
-
-
         //////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
 
         if(persisting(wordCount, article)) {
            return article.getWords();
