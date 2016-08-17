@@ -25,16 +25,21 @@
 
 
         <form action="/readFile" method="post" class="center">
-            <button type="submit" class="buton" value="submit"  style="width: 140px">Read From File</button>
+            <button type="submit" class="buton" value="submit" style="width: 140px">Read From File</button>
             <br/>
             <br/>
-            <button type="button" class="buton" onclick="window.location='/uploadFile'" style="width: 140px">Upload File Page
+            <button type="button" class="buton" onclick="window.location='/uploadFile'" style="width: 140px">
+                Upload File Page
             </button>
         </form>
 
     </div>
 
 </div>
+<p class="paragraf">
+    @Zburatura Adrian - Junior Developer</p>
+<p class="paragraf">
+    @Matei Andra - Junior AM Engineer</p>
 
 </body>
 </html>

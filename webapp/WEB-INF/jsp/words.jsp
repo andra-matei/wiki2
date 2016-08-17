@@ -17,7 +17,7 @@
 <body>
 
 <c:if test="${not empty wordList}">
-
+    <%--Script for displaying the chart in CanvasJs--%>
     <script type="text/javascript">
         window.onload = function () {
             var chart = new CanvasJS.Chart("chartContainer",
@@ -55,16 +55,18 @@
     </script>
 </c:if>
 
+
 <c:choose>
+    <%--If the wordList is empty then display an error--%>
     <c:when test="${empty wordList}">
         <h1 id="chartContainer" class="alert alert-danger" style="text-align: center">${eroare}</h1>
     </c:when>
+    <%--If the wordList is not empty then display the chart with the top 10 words--%>
     <c:otherwise>
         <div id="chartContainer" style="height: 100%; width: 100%;">
         </div>
     </c:otherwise>
 </c:choose>
-
 
 </body>
 </html>
