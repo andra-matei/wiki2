@@ -28,8 +28,8 @@ public class ArticleServiceImpl implements ArticleService {
 	 * @see repository.ArticleRepository.java
 	 */
     @Override
-    public void saveArticle(Article article) {
-        articleRepository.saveArticle(article);
+    public int saveArticle(Article article) {
+        return articleRepository.saveArticle(article);
     }
 
     /*
@@ -38,8 +38,8 @@ public class ArticleServiceImpl implements ArticleService {
 	 * @see repository.ArticleRepository.java
 	 */
     @Override
-    public void updateArticle(Article article) {
-        articleRepository.updateArticle(article);
+    public Article updateArticle(Article article) {
+       return articleRepository.updateArticle(article);
     }
 
     /*

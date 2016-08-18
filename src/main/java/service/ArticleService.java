@@ -12,9 +12,9 @@ import model.Article;
  */
 public interface ArticleService {
 
-    void saveArticle(Article article);
+    int saveArticle(Article article);
 
-    void updateArticle(Article article);
+    Article updateArticle(Article article);
 
     Article findArticleByName(String title);
 

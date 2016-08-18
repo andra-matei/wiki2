@@ -12,6 +12,6 @@ import model.Word;
  */
 public interface WordService {
 
-    void saveWord(Word word);
+    int saveWord(Word word);
 
 }

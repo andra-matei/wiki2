@@ -28,7 +28,7 @@ public class WordServiceImpl implements WordService {
 	 * @see repository.WordRepository.java
 	 */
     @Override
-    public void saveWord(Word word) {
-        wordRepository.saveWord(word);
+    public int saveWord(Word word) {
+        return wordRepository.saveWord(word);
     }
 }

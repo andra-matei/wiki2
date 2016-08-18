@@ -20,9 +20,10 @@ public class WordRepository {
     /**
      * @param word the word to be persisted
      */
-    public void saveWord(Word word) {
+    public int saveWord(Word word) {
         entityManager.persist(word);
         entityManager.flush();
+        return word.getId();
     }
 
 }

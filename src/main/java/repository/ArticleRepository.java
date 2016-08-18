@@ -1,7 +1,6 @@
 package repository;
 
 import model.Article;
-import model.Word;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
@@ -23,15 +22,17 @@ public class ArticleRepository {
     /**
      * @param article the article to be persisted
      */
-    public void saveArticle(Article article) {
+    public int saveArticle(Article article) {
         entityManager.persist(article);
+        entityManager.flush();
+        return article.getId();
     }
 
     /**
      * @param article the article to be merged
      */
-    public void updateArticle(Article article) {
-        entityManager.merge(article);
+    public Article updateArticle(Article article) {
+        return entityManager.merge(article);
     }
 
     /**
