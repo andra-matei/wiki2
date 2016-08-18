@@ -15,21 +15,35 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 /**
- * Created by azburatura on 8/18/2016.
+ * @author Created by azburatura on 8/18/2016.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"file:webapp/WEB-INF/mvc-dispatcher-servlet.xml",
                         "file:webapp/WEB-INF/spring-context.xml" })
 @EnableWebMvc
 @Transactional
+
+/**
+ * (non Java-doc)
+ *
+ * Test for WordServiceTest.java
+ */
 public class WordServiceTest {
 
+    /**
+     * Injected WordService bean
+     */
     @Autowired
     private WordService wordService;
 
     @PersistenceContext
     private EntityManager entityManager;
 
+    /**
+     * (non Java-doc)
+     *
+     * testing the method saveWordService()
+     */
     @Test
     public void testSaveWordService() {
         Word word = new Word();

@@ -13,6 +13,7 @@ import java.util.List;
 @Entity
 @Table(name = "Article")
 public class Article {
+
     /**
      *Primary Key
      */

@@ -48,11 +48,11 @@ public class WriteFileFromXML {
      * it is returned from the database if the article was searched for previously
      */
     public List<Word> writeFileFromXML(String titleForUrl) {
-        long start = System.currentTimeMillis();
+        long startTime = System.currentTimeMillis();
         Article article = articleService.findArticleByName(allTitles(titleForUrl));
         if (article == null) {
             this.titleForUrl = titleForUrl;
-            URL url = null;
+            URL url;
             try {
                 url = new URL(BaseKeys.URL_WIKI + titleForUrl);
                 URLConnection urlConnection = url.openConnection();
@@ -73,8 +73,8 @@ public class WriteFileFromXML {
             }
             return null;
         } else {
-            long end = System.currentTimeMillis();
-            duration = end - start;
+            long endTime = System.currentTimeMillis();
+            duration = endTime - startTime;
             return article.getWords();
         }
     }
@@ -91,6 +91,10 @@ public class WriteFileFromXML {
         return titles;
     }
 
+    /**
+     *
+     * @return total time from beginning to end
+     */
     public long getDuration() {
         return duration;
     }

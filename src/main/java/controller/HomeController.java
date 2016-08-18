@@ -16,9 +16,6 @@ import java.util.List;
 /**
  * @author Adrian Zburatura
  * @author Andra Matei
- *         <p>
- *         Spring MVC Controller class controlling the view of the Home Page.
- *         </p>
  * @version %I%, %G%
  */
 @Controller
@@ -53,7 +50,10 @@ public class HomeController {
      */
     @RequestMapping(method = RequestMethod.POST)
     public String addArticle(@RequestParam("title") String title, Model model) {
+
+        //wordList contains all the words from the article with the title "title"
         List<Word> wordList = writeFileFromXML.writeFileFromXML(title);
+
         boolean fromDatabase = true;
         if (wordList == null) {
             wordList = countWords.countWords();
@@ -80,8 +80,6 @@ public class HomeController {
      */
     @RequestMapping(value = "/uploadFile", method = RequestMethod.GET)
     public String showUploadPage() {
-
         return "uploadFile";
     }
-
 }

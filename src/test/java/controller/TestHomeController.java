@@ -1,6 +1,5 @@
 package controller;
 
-import model.Word;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,32 +11,45 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import static org.hamcrest.Matchers.any;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.forwardedUrl;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.model;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
- * Created by azburatura on 8/18/2016.
+ * @author Created by azburatura on 8/18/2016.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"file:webapp/WEB-INF/mvc-dispatcher-servlet.xml",
         "file:webapp/WEB-INF/spring-context.xml"})
 @WebAppConfiguration
+/**
+ * (non Java-doc)
+ *
+ * Test for HomeController.java
+ */
 public class TestHomeController {
 
+    /**
+     * Injected WebApplicationContext
+     */
     @Autowired
     WebApplicationContext wac;
 
     private MockMvc mockMvc;
 
+    /**
+     * building the web application context
+     */
     @Before
     public void setup() {
         this.mockMvc = MockMvcBuilders.webAppContextSetup(this.wac).build();
     }
 
+    /**
+     * testing the method testShowHome()
+     * @throws Exception
+     */
     @Test
     public void testShowHome() throws Exception {
         this.mockMvc.perform(get("/"))
@@ -45,6 +57,10 @@ public class TestHomeController {
                 .andExpect(forwardedUrl("/WEB-INF/jsp/home.jsp"));
     }
 
+    /**
+     * testing the method testShowUpload()
+     * @throws Exception
+     */
     @Test
     public void testShowUpload() throws Exception {
         this.mockMvc.perform(get("/uploadFile"))
@@ -52,6 +68,10 @@ public class TestHomeController {
                 .andExpect(forwardedUrl("/WEB-INF/jsp/uploadFile.jsp"));
     }
 
+    /**
+     * testing the method testAddArticle()
+     * @throws Exception
+     */
     @Test
     public void testAddArticle() throws Exception {
         this.mockMvc.perform(post("/")

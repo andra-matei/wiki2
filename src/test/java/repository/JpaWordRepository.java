@@ -15,21 +15,33 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 /**
- * Created by azburatura on 8/18/2016.
+ * @author Created by azburatura on 8/18/2016.
  */
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("file:webapp/WEB-INF/mvc-dispatcher-servlet.xml")
 @EnableWebMvc
 @Transactional
+/**
+ * (non Java-doc)
+ *
+ * Test for WordRepository.java
+ */
 public class JpaWordRepository {
 
+    /**
+     * Injected WordRepository bean
+     */
     @Autowired
     private WordRepository wordRepository;
 
     @PersistenceContext
     private EntityManager entityManager;
 
+    /**
+     * (non Java-doc)
+     * testing the method saveWord()
+     */
     @Test
     public void testSaveWord() {
         Word word = new Word();
@@ -43,8 +55,6 @@ public class JpaWordRepository {
         word.setArticle(article);
 
         int id = wordRepository.saveWord(word);
-
         Assert.assertNotEquals(id, 0);
     }
-
 }

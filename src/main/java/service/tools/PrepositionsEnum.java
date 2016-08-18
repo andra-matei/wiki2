@@ -3,9 +3,9 @@ package service.tools;
 /**
  * @author Adrian Zburatura
  * @author Andra Matei
- *         <p>
- *         Contains the words never taken into account
- *         </p>
+ *
+ * Contains the words never taken into account
+ *
  * @version %I%, %G%
  */
 public enum PrepositionsEnum {
@@ -28,7 +28,6 @@ public enum PrepositionsEnum {
     AT,
     HAS,
     ARE
-
 }
 
 

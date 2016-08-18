@@ -13,29 +13,42 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.forwardedUrl;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
- * Created by azburatura on 8/18/2016.
+ * @author Created by azburatura on 8/18/2016.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"file:webapp/WEB-INF/mvc-dispatcher-servlet.xml",
         "file:webapp/WEB-INF/spring-context.xml"})
 @WebAppConfiguration
+/**
+ * (non Java-doc)
+ *
+ * Test for UploadFileController.java
+ */
 public class TestUploadFileController {
 
+    /**
+     * Injected WebApplicationContext bean
+     */
     @Autowired
     WebApplicationContext wac;
 
     private MockMvc mockMvc;
 
+    /**
+     * building the web application context
+     */
     @Before
     public void setup() {
         this.mockMvc = MockMvcBuilders.webAppContextSetup(this.wac).build();
     }
 
+    /**
+     * testing the method handleUpload()
+     * @throws Exception
+     */
     @Test
     public void testHandleUpload() throws Exception {
 

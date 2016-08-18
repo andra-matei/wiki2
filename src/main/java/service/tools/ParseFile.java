@@ -78,14 +78,26 @@ public class ParseFile {
         }
     }
 
+    /**
+     *
+     * @return the boolean database
+     */
     public boolean isFromDatabase() {
         return fromDatabase;
     }
 
+    /**
+     *
+     * @return countWords
+     */
     public CountWords getCountWords() {
         return countWords;
     }
 
+    /**
+     *
+     * @return writeFileFromXML
+     */
     public WriteFileFromXML getWriteFileFromXML() {
         return writeFileFromXML;
     }
