@@ -54,6 +54,7 @@ public class WriteFileFromXML {
             this.titleForUrl = titleForUrl;
             URL url;
             try {
+                titleForUrl = titleForUrl.replaceAll(" ", "_");
                 url = new URL(BaseKeys.URL_WIKI + titleForUrl);
                 URLConnection urlConnection = url.openConnection();
                 BufferedReader in = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
