@@ -56,7 +56,9 @@ public class UploadFileController {
         if (!file.isEmpty()) {
             try {
                 File dir = new File(BaseKeys.ROOT_PATH_TO_DIRECTORY);
-                if (!dir.exists()) {dir.mkdirs();}
+                if (!dir.exists()) {
+                    dir.mkdirs();
+                }
 
                 String pathToFile = dir.getAbsolutePath() + File.separator + file.getOriginalFilename();
                 File serverFile = new File(pathToFile);
@@ -65,14 +67,17 @@ public class UploadFileController {
                     stream.write(file.getBytes());
                     stream.flush();
                     List<Word> wordList = parseFile.readFromFile(pathToFile);
-                    utilityController.whatShouldItDisplay(model,wordList);
+                    utilityController.whatShouldItDisplay(model, wordList);
                     return "words";
                 }
             } catch (Exception e) {
-                return "You failed to upload " + file.getName() + " => " + e.getMessage();
+                e.printStackTrace();
+                model.addAttribute("eroare", BaseKeys.ERROR_404);
+                return "words";
             }
         } else {
-            return "You failed to upload " + file.getName() + " because the file was empty.";
+            model.addAttribute("eroare", BaseKeys.ERROR_404);
+            return "words";
         }
     }
 }
