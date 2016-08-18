@@ -14,33 +14,32 @@
 </head>
 <body>
 <div id="allText" class="myDiv">
-    <div class="bg-warning">
 
-        <h2 class="center">Welcome to Wiki Indexer!</h2>
+    <h2 class="center">Welcome to Wiki Indexer!</h2>
 
-        <form action="/" method="post" class="center">
-            <input type="text" name="title" placeholder="Insert here the article title" required>
-            <button type="submit" value="submit" class="buton" style="width: 140px">Search</button>
-        </form>
+    <form action="/" method="post" class="center">
+        <input type="text" name="title" placeholder="Insert here the article title" required>
+        <button type="submit" value="submit" class="buton" style="width: 140px">Search</button>
+    </form>
 
 
-        <form action="/readFile" method="post" class="center">
-            <button type="submit" class="buton" value="submit" style="width: 140px">Read From File</button>
-            <br/>
-            <br/>
-            <button type="button" class="buton" onclick="window.location='/uploadFile'" style="width: 140px">
-                Upload File Page
-            </button>
-        </form>
-
-    </div>
+    <form action="/readFile" method="post" class="center">
+        <button type="submit" class="buton" value="submit" style="width: 140px">Read From File</button>
+        <br/>
+        <br/>
+        <button type="button" class="buton" onclick="window.location='/uploadFile'" style="width: 140px">
+            Upload File Page
+        </button>
+    </form>
 
 </div>
+
 <div style="position: relative; margin-left: 600px">
     <p class="paragraf">
         @Zburatura Adrian - Junior Developer
         @Matei Andra - Junior AM Engineer
     </p>
 </div>
+
 </body>
 </html>
