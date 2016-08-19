@@ -18,7 +18,7 @@
     <h2 class="center">Welcome to Wiki Indexer!</h2>
 
     <form action="/" method="post" class="center">
-        <input type="text" id="textField" name="title" placeholder="Insert here the article title">
+        <input type="text" id="textField" name="title" placeholder="Insert here the article title" required>
         <button type="submit" value="submit" class="buton" style="width: 140px" onclick="capitaliseText()">Search
         </button>
     </form>
