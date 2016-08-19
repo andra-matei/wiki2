@@ -38,7 +38,6 @@ public class Word {
     private Article article;
 
     /**
-     *
      * @return the id of the word
      */
     public int getId() {
@@ -46,16 +45,13 @@ public class Word {
     }
 
     /**
-     *
-     * @param id
-     * the id to set
+     * @param id the id to set
      */
     public void setId(int id) {
         this.id = id;
     }
 
     /**
-     *
      * @return the name of the word
      */
     public String getName() {
@@ -63,16 +59,13 @@ public class Word {
     }
 
     /**
-     *
-     * @param word
-     * the name of the word to set
+     * @param word the name of the word to set
      */
     public void setName(String word) {
         this.name = word;
     }
 
     /**
-     *
      * @return the number of occurences
      */
     public int getOccurences() {
@@ -80,16 +73,13 @@ public class Word {
     }
 
     /**
-     *
-     * @param occurrences
-     * the occurrences to set
+     * @param occurrences the occurrences to set
      */
     public void setOccurrences(int occurrences) {
         this.occurences = occurrences;
     }
 
     /**
-     *
      * @return the article the word belongs to
      */
     public Article getArticle() {
@@ -97,9 +87,7 @@ public class Word {
     }
 
     /**
-     *
-     * @param article
-     * the
+     * @param article the
      */
     public void setArticle(Article article) {
         this.article = article;

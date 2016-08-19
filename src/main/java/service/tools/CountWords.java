@@ -6,7 +6,6 @@ import model.Word;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import service.ArticleService;
-import service.WordService;
 import service.utility.UtilityCountWords;
 
 import java.io.BufferedReader;
@@ -42,11 +41,6 @@ public class CountWords {
     @Autowired
     private ArticleService articleService;
 
-    /**
-     * Injected WordService bean
-     */
-    @Autowired
-    private WordService wordService;
 
     @Autowired
     UtilityCountWords utilityCountWords;
@@ -104,9 +98,10 @@ public class CountWords {
             System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
             //////////////////////////////////////////////////////////////////////////////////////////////
             return article.getWords();
-        } else { return null;}
+        } else {
+            return null;
+        }
     }
-
 
 
     public long getDuration() {

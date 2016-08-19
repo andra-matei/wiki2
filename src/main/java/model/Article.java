@@ -15,20 +15,20 @@ import java.util.List;
 public class Article {
 
     /**
-     *Primary Key
+     * Primary Key
      */
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
     /**
-     *The title of the article
+     * The title of the article
      */
     @Column(name = "title")
     private String title;
 
     /**
-     *The URL of the article
+     * The URL of the article
      */
     @Column(name = "url")
     private String url;
@@ -47,8 +47,7 @@ public class Article {
     }
 
     /**
-     * @param id
-     * the id to set
+     * @param id the id to set
      */
     public void setId(int id) {
         this.id = id;
@@ -62,8 +61,7 @@ public class Article {
     }
 
     /**
-     * @param titlu
-     * the title to set
+     * @param titlu the title to set
      */
     public void setTitle(String titlu) {
         this.title = titlu;
@@ -77,16 +75,13 @@ public class Article {
     }
 
     /**
-     *
-     * @param url
-     * the url to set
+     * @param url the url to set
      */
     public void setUrl(String url) {
         this.url = url;
     }
 
     /**
-     *
      * @return the list of 10 words of the article
      */
     public List<Word> getWords() {
@@ -94,9 +89,7 @@ public class Article {
     }
 
     /**
-     *
-     * @param words
-     * the words to be set
+     * @param words the words to be set
      */
     public void setWords(List<Word> words) {
         this.words = words;

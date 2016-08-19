@@ -121,7 +121,9 @@ public class UtilityCountWords {
                 }
             }
             return true;
-        } else { return false;}
+        } else {
+            return false;
+        }
     }
 
     /**

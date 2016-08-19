@@ -7,17 +7,20 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: beige;
 
 }
-.myDiv{
-    width:100%;
-    margin-left:auto;
-    margin-right:auto;
+
+.myDiv {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 270px;
 }
-.buton{
+
+.buton {
     width: 70%;
     background-color: #3399ff;
     color: white;
@@ -27,14 +30,17 @@ body{
     border-radius: 4px;
     cursor: pointer;
 }
+
 .buton:hover {
     background-color: mediumpurple;
 }
-.center{
+
+.center {
     text-align: center;
 
 }
-.butonUpload{
+
+.butonUpload {
     width: 180px;
     background-color: #3399ff;
     color: white;
@@ -45,15 +51,18 @@ body{
     position: relative;
     margin-left: 30px;
 }
+
 .butonUpload:hover {
     background-color: mediumpurple;
 }
-.bodyClass{
+
+.bodyClass {
     bgcolor: #f5f5dc;
     margin-left: 600px;
     font-size: 18px;
     font-family: Arial;
 }
+
 .inputfile {
     width: 0.1px;
     height: 0.1px;
@@ -62,6 +71,7 @@ body{
     position: absolute;
     z-index: -1;
 }
+
 .inputfile + label {
     width: 180px;
     background-color: #3399ff;
@@ -72,6 +82,7 @@ body{
     border-radius: 4px;
     cursor: pointer;
 }
+
 .inputfile:focus + label,
 .inputfile + label:hover {
     background-color: mediumpurple;
@@ -81,6 +92,7 @@ body{
     outline: 1px dotted #000;
     outline: -webkit-focus-ring-color auto 5px;
 }
+
 .paragraf {
     color: lightgrey;
     text-decoration-color: lightgray;

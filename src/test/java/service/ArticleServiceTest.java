@@ -37,7 +37,7 @@ public class ArticleServiceTest {
 
     /**
      * (non Java-doc)
-     *
+     * <p>
      * testing the method saveArticleService()
      */
     @Test
@@ -53,7 +53,7 @@ public class ArticleServiceTest {
 
     /**
      * (non Java-doc)
-     *
+     * <p>
      * testing the method findArticleByName()
      */
     @Test
@@ -70,7 +70,7 @@ public class ArticleServiceTest {
 
     /**
      * (non Java-doc)
-     *
+     * <p>
      * testing the method updateArticleService()
      */
     @Test

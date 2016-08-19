@@ -47,6 +47,7 @@ public class TestReadFromFileController {
 
     /**
      * testing the method readFromFile()
+     *
      * @throws Exception
      */
     @Test

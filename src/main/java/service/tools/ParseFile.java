@@ -79,7 +79,6 @@ public class ParseFile {
     }
 
     /**
-     *
      * @return the boolean database
      */
     public boolean isFromDatabase() {
@@ -87,7 +86,6 @@ public class ParseFile {
     }
 
     /**
-     *
      * @return countWords
      */
     public CountWords getCountWords() {
@@ -95,7 +93,6 @@ public class ParseFile {
     }
 
     /**
-     *
      * @return writeFileFromXML
      */
     public WriteFileFromXML getWriteFileFromXML() {

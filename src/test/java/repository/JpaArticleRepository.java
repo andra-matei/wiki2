@@ -36,6 +36,7 @@ public class JpaArticleRepository {
 
     /**
      * testing the method saveArticle()
+     *
      * @throws Exception
      */
     @Test
@@ -51,7 +52,7 @@ public class JpaArticleRepository {
 
     /**
      * (non Java-doc)
-     *
+     * <p>
      * testing the method findArticleByName()
      */
     @Test
@@ -67,6 +68,7 @@ public class JpaArticleRepository {
 
     /**
      * testing the method updateArticle()
+     *
      * @throws Exception
      */
     @Test

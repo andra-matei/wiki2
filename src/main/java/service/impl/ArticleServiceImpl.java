@@ -39,7 +39,7 @@ public class ArticleServiceImpl implements ArticleService {
 	 */
     @Override
     public Article updateArticle(Article article) {
-       return articleRepository.updateArticle(article);
+        return articleRepository.updateArticle(article);
     }
 
     /*

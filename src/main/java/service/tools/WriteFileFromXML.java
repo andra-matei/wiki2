@@ -93,7 +93,6 @@ public class WriteFileFromXML {
     }
 
     /**
-     *
      * @return total time from beginning to end
      */
     public long getDuration() {

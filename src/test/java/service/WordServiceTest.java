@@ -19,7 +19,7 @@ import javax.persistence.PersistenceContext;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"file:webapp/WEB-INF/mvc-dispatcher-servlet.xml",
-                        "file:webapp/WEB-INF/spring-context.xml" })
+        "file:webapp/WEB-INF/spring-context.xml"})
 @EnableWebMvc
 @Transactional
 
@@ -41,7 +41,7 @@ public class WordServiceTest {
 
     /**
      * (non Java-doc)
-     *
+     * <p>
      * testing the method saveWordService()
      */
     @Test

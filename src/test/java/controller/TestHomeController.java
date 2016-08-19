@@ -48,6 +48,7 @@ public class TestHomeController {
 
     /**
      * testing the method testShowHome()
+     *
      * @throws Exception
      */
     @Test
@@ -59,6 +60,7 @@ public class TestHomeController {
 
     /**
      * testing the method testShowUpload()
+     *
      * @throws Exception
      */
     @Test
@@ -70,6 +72,7 @@ public class TestHomeController {
 
     /**
      * testing the method testAddArticle()
+     *
      * @throws Exception
      */
     @Test
