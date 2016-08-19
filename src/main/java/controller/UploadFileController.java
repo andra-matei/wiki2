@@ -80,4 +80,15 @@ public class UploadFileController {
             return "words";
         }
     }
+
+    /**
+     * Method that returns you to upload file page, uses the get method
+     *
+     * @return uploadFile.jsp
+     */
+    @RequestMapping(method = RequestMethod.GET)
+    public String returnToUpload() {
+        return "uploadFile";
+    }
+
 }
