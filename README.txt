@@ -47,7 +47,7 @@ Maven
 
 The writeFileFromXML() method receives a string representing a title and it looks for this specific title
 in the database. If it can find it, then the method will return the list of the top ten words.
-Otherwise, it opens a new URL connection composed by the wiki root URL and the added title. The input of this 
+Otherwise, it opens a new URL connection composed of the wiki root URL and the added title. The input of this
 connection is being stored in a file and line by line parsed. 
 
 The auxiliar method allTitles() gets the title from URL and splits it by the url specific separator : "%0A".
@@ -65,15 +65,15 @@ It analyses each line from the .xml file, it splits it by the separator " " and 
 "words".
 Then, it analyses each word from "words". If it contains only letters, has a length bigger than 2 and is not a 
 preposition, then it can be put in the "wordCount" Map. 
-In "wordCount", each word is stored together with its number of occurences.
-After that, the new entry (the processed article) is being persisted in the database.
+In "wordCount", each word is stored together with its number of occurrences.
+After that, the new entry (the processed article) is persisted in the database.
 
 **ParseFile.java
 
 The method readFromFile() receives a file path in order to process the file.
-It calcules the article's final title. If the method can find the results of the given article,
-then it sends this information to the method isFromDatabase() and puts the top Ten Words in the "wordList".
-Otherwise, it calculates the top ten words of the article by calling the countWords() method. 
+It calculates the article's final title. If the method can find the results of the given article,
+then it will send this information to the method isFromDatabase() and will put the top Ten Words in the "wordList".
+Otherwise, it will calculate the top ten words of the article by calling the countWords() method.
 
 
 
