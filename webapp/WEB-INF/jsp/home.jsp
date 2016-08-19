@@ -18,8 +18,9 @@
     <h2 class="center">Welcome to Wiki Indexer!</h2>
 
     <form action="/" method="post" class="center">
-        <input type="text" name="title" placeholder="Insert here the article title" required>
-        <button type="submit" value="submit" class="buton" style="width: 140px">Search</button>
+        <input type="text" id="textField" name="title" placeholder="Insert here the article title">
+        <button type="submit" value="submit" class="buton" style="width: 140px" onclick="capitaliseText()">Search
+        </button>
     </form>
 
 
@@ -40,6 +41,15 @@
         @Matei Andra - Junior AM Engineer
     </p>
 </div>
+
+<script>
+    function capitaliseText() {
+        var textField = document.getElementById("textField").value;
+        document.getElementById("textField").value = textField.replace(/\w\S*/g, function (txt) {
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        });
+    }
+</script>
 
 </body>
 </html>
